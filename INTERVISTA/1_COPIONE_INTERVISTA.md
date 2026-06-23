@@ -5,8 +5,6 @@
 - **Dr. Martinelli** - Direttore Sanitario Ospedale San Leonardo (in apertura tra 6 mesi)
 - **Ing. Rossi** - Consulente Informatico di TechHealth Solutions
 
-**Durata stimata:** 15-20 minuti
-
 ---
 
 ## SCENA: Ufficio provvisorio del Dr. Martinelli
