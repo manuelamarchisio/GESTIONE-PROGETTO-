@@ -155,14 +155,16 @@ L'attività intende far riflettere gli studenti su alcuni aspetti chiave dello s
 
 ## CONDUZIONE DELLA LEZIONE IN CLASSE
 
-### Fase 1: Raccolta individuale (10 minuti)
-Gli studenti analizzano il testo dell'intervista e compilano le proprie note.
+### Fase 1: Intervista 
+Intervista seguendo il copione in [1_COPIONE_INTERVISTA](1_COPIONE_INTERVISTA)
+Si spiega ai ragazzi che dovranno prendere appunti e raccogliere quali sono i requisiti del sistema
+Durante l'intervista i ragazzi inoltre potranno intervenire e dialogare con il cliente.
 
-### Fase 2: Lavoro di gruppo (15 minuti)
+### Fase 2: Lavoro di gruppo
 * Si dividono gli studenti in piccoli gruppi di 3 o 4 persone.
 * Ogni gruppo confronta le criticità individuate e sintetizza un elenco condiviso.
 
-### Fase 3: Discussione generale (20-25 minuti)
+### Fase 3: Discussione generale 
 
 **Spunti per il dibattito:**
 1. Quali richieste vi sembrano chiare e quali sono scritte in modo ambiguo?
@@ -170,13 +172,15 @@ Gli studenti analizzano il testo dell'intervista e compilano le proprie note.
 3. Se aveste condotto voi l'intervista, come vi sareste comportati nei punti più critici?
 4. L'atteggiamento di questo cliente è un caso isolato o rispecchia situazioni frequenti nella realtà lavorativa?
 
-### Fase 4: Quadro teorico (15 minuti)
+### Fase 4: Quadro teorico 
 * Definizione formale del concetto di requisito
 * Differenza tra requisiti funzionali e requisiti non funzionali
+* Far svolgere ai ragazzi la [SCHEDA_STUDENTE](2_SCHEDA_STUDENTE.md)
 * Metodi per raccogliere le informazioni dai clienti
 * Tecniche per concordare obiettivi e priorità
 
-### Fase 5: Esercitazione pratica (20 minuti)
+### Fase 5: Esercitazione pratica 
+Fornire agli studenti la scheda cartacea dell'intervista.
 Chiedere agli studenti di rielaborare da 3 a 5 frasi dell'intervista trasformandole in requisiti ben definiti:
 * Formulazione chiara, precisa e verificabile
 * Distinzione tra aspetti funzionali e vincoli tecnici
