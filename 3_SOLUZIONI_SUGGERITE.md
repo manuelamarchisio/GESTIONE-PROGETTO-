@@ -225,7 +225,7 @@ Nuovi requisiti emersi durante la conversazione:
 
 ### APPROCCIO CONSIGLIATO
 
-✅ **Sviluppo per fasi (sviluppo incrementale)** o **Agile con rilasci frequenti**
+**Sviluppo per fasi (sviluppo incrementale)** o **Agile con rilasci frequenti**
 
 **Motivazione:**
 - Budget e tempi limitati richiedono prioritizzazione
@@ -234,7 +234,7 @@ Nuovi requisiti emersi durante la conversazione:
 - Riduce rischio di investire tutto in soluzione sbagliata
 - Consente di iniziare a generare valore subito
 
-❌ Non "tutto insieme": troppo rischioso, costoso, lento
+ Non "tutto insieme": troppo rischioso, costoso, lento
 
 ---
 
@@ -369,10 +369,10 @@ Un bravo analista di requisiti deve avere:
 ### Valutazione delle risposte aperte
 
 Non cercate risposte identiche a queste: valutate:
-- ✅ La **comprensione del concetto**
-- ✅ La **capacità di motivare** le risposte
-- ✅ Il **collegamento con l'intervista**
-- ✅ La **profondità dell'analisi**
+-  La **comprensione del concetto**
+-  La **capacità di motivare** le risposte
+-  Il **collegamento con l'intervista**
+-  La **profondità dell'analisi**
 
 Le risposte "fuori dagli schemi" ma ben motivate vanno premiate!
 
@@ -380,10 +380,10 @@ Le risposte "fuori dagli schemi" ma ben motivate vanno premiate!
 
 Esempi di risposte che indicano incomprensione:
 
-❌ "Requisito funzionale: deve essere veloce" → è non funzionale
-❌ "Non ci sono problemi, basta che il consulente lavori bene" → non ha colto le criticità
-❌ "Il cliente è stupido" → giudizio superficiale, non analisi
-❌ Liste di requisiti solo vaghe ("deve funzionare bene") → non ha colto il problema dell'ambiguità
+ "Requisito funzionale: deve essere veloce" → è non funzionale
+  Non ci sono problemi, basta che il consulente lavori bene" → non ha colto le criticità
+ "Il cliente è stupido" → giudizio superficiale, non analisi
+ Liste di requisiti solo vaghe ("deve funzionare bene") → non ha colto il problema dell'ambiguità
 
 ### Approfondimenti per studenti eccellenti
 
@@ -657,12 +657,12 @@ Se avete studenti molto bravi che finiscono prima:
 
 | Ruolo | Consulta | Modifica | Cancella | Note |
 |-------|----------|----------|----------|------|
-| **Medico curante** | ✅ Tutta la storia | ✅ Proprie visite | ❌ Mai | Può aggiungere diagnosi, prescrizioni |
-| **Medico specialista** | ✅ Parti pertinenti | ✅ Proprie visite | ❌ Mai | Es: cardiologo vede esami cardiologici |
-| **Medico PS** | ✅ Info emergenza | ✅ Intervento PS | ❌ Mai | Accesso rapido senza barriere burocratiche |
-| **Infermiere** | ✅ Terapie correnti | ✅ Parametri vitali, somministrazioni | ❌ Mai | Non può prescrivere farmaci |
-| **Amministrativo** | ✅ Solo anagrafica | ❌ Mai | ❌ Mai | Solo per prenotazioni/accettazione |
-| **Laboratorio** | ❌ No (solo ID) | ✅ Inserisce referti | ❌ Mai | Carica file PDF/immagini nel fascicolo |
+| **Medico curante** |  Tutta la storia |  Proprie visite |  Mai | Può aggiungere diagnosi, prescrizioni |
+| **Medico specialista** | Parti pertinenti |  Proprie visite |  Mai | Es: cardiologo vede esami cardiologici |
+| **Medico PS** |  Info emergenza |  Intervento PS | Mai | Accesso rapido senza barriere burocratiche |
+| **Infermiere** |  Terapie correnti |  Parametri vitali, somministrazioni |  Mai | Non può prescrivere farmaci |
+| **Amministrativo**   Solo anagrafica |  Mai |  Mai | Solo per prenotazioni/accettazione |
+| **Laboratorio** |  No (solo ID) |  Inserisce referti |  Mai | Carica file PDF/immagini nel fascicolo |
 
 **Controlli necessari nel processo P5:**
 - Matrice permessi memorizzata in D5
@@ -672,7 +672,7 @@ Se avete studenti molto bravi che finiscono prima:
 #### 4. Prenotazione in linea vs sportello
 
 **Il flusso cambia?**
-✅ **Cambia solo l'interfaccia, non la logica del processo**
+ **Cambia solo l'interfaccia, non la logica del processo**
 
 **Differenze:**
 
@@ -756,11 +756,11 @@ Se avete studenti molto bravi che finiscono prima:
 
 #### 4. Quali archivi consultare prima di confermare prenotazione?
 
-**Risposta:** ✅ TUTTI E TRE:
+**Risposta:**  TUTTI E TRE:
 
-- ✅ **D1: Archivio Prenotazioni** → Verificare che lo slot non sia già occupato
-- ✅ **D2: Archivio Medici** → Verificare disponibilità del medico in quel giorno/ora e che abbia la specialità richiesta
-- ✅ **D3: Archivio Pazienti** → Verificare che il paziente esista (o crearlo se prima visita), recuperare i suoi dati
+-  **D1: Archivio Prenotazioni** → Verificare che lo slot non sia già occupato
+-  **D2: Archivio Medici** → Verificare disponibilità del medico in quel giorno/ora e che abbia la specialità richiesta
+-  **D3: Archivio Pazienti** → Verificare che il paziente esista (o crearlo se prima visita), recuperare i suoi dati
 
 (D4 non serve in questa fase, serve dopo durante l'accettazione)
 
@@ -768,7 +768,7 @@ Se avete studenti molto bravi che finiscono prima:
 
 #### 5. Il DFD mostra l'ordine temporale?
 
-**Risposta: ❌ NO**
+**Risposta:  NO**
 
 **Spiegazione:**
 - Il DFD mostra COSA fluisce (quali dati), non QUANDO
@@ -814,5 +814,3 @@ Se avete studenti molto bravi che finiscono prima:
 - Non ha compreso le problematiche
 
 ---
-
-**Buona correzione! La parte DFD è la più tecnica ma anche la più formativa.** 📊✅
