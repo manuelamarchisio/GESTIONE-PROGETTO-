@@ -11,8 +11,26 @@ della documentazione di progetto.
 ---
 
 ## Contenuto della repository
+### [`0_GUIDA_DOCENTE.md`](0_GUIDA_DOCENTE.md) — La guida per i docenti
 
-### [`1_COPIONE_INTERVISTA.md`](0_COPIONE_INTERVISTA.md) — Il copione dell'intervista
+Descrive gli obiettivi didattici delle due parti, elenca le criticità presenti
+nel copione (con indicazione precisa di dove emergono nel dialogo), suggerisce
+le domande da rivolgere agli studenti nei momenti chiave e fornisce indicazioni
+per la costruzione guidata del DFD.
+
+La guida analizza sei categorie di problemi ricorrenti nell'elicitazione
+dei requisiti:
+
+1. Requisiti vaghi e ambigui
+2. Conflitto tra budget e funzionalità richieste
+3. Aspettative irrealistiche (tempistiche, IA diagnostica)
+4. Requisiti contrastanti (sistema unico vs. sistemi eterogenei)
+5. Barriere comunicative tra cliente non tecnico e consulente
+6. *Espansione dello scope* (accesso remoto aggiunto "ah, dimenticavo!")
+
+---
+
+### [`1_COPIONE_INTERVISTA.md`](1_COPIONE_INTERVISTA.md) — Il copione dell'intervista
 
 Testo drammaturgico suddiviso in due parti.
 
@@ -38,32 +56,13 @@ il *sistema di prenotazione visite* e la *cartella clinica elettronica*.
 
 ---
 
-### [`2_GUIDA_DOCENTE.md`](1_GUIDA_DOCENTE.md) — La guida per i docenti
-
-Descrive gli obiettivi didattici delle due parti, elenca le criticità presenti
-nel copione (con indicazione precisa di dove emergono nel dialogo), suggerisce
-le domande da rivolgere agli studenti nei momenti chiave e fornisce indicazioni
-per la costruzione guidata del DFD.
-
-La guida analizza sei categorie di problemi ricorrenti nell'elicitazione
-dei requisiti:
-
-1. Requisiti vaghi e ambigui
-2. Conflitto tra budget e funzionalità richieste
-3. Aspettative irrealistiche (tempistiche, IA diagnostica)
-4. Requisiti contrastanti (sistema unico vs. sistemi eterogenei)
-5. Barriere comunicative tra cliente non tecnico e consulente
-6. *Espansione dello scope* (accesso remoto aggiunto "ah, dimenticavo!")
-
----
-
-### [`3_SCHEDA_STUDENTE.md`](2_SCHEDA_STUDENTE.md) — La scheda studente
+### [`2_SCHEDA_STUDENTE.md`](2_SCHEDA_STUDENTE.md) — La scheda studente
 
 Documento di lavoro individuale da compilare durante l'intervista simulata.
 
 ---
 
-### [`4_SOLUZIONI_SUGGERITE.md`](3_SOLUZIONI_SUGGERITE.md) — Le soluzioni suggerite *(riservato ai docenti)*
+### [`3_SOLUZIONI_SUGGERITE.md`](3_SOLUZIONI_SUGGERITE.md) — Le soluzioni suggerite *(riservato ai docenti)*
 
 Fornisce le soluzioni di riferimento per tutte le sezioni della scheda studente:
 circa 14–20 requisiti funzionali e 10–12 requisiti non funzionali identificabili
