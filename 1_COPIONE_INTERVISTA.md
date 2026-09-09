@@ -2,8 +2,8 @@
 ## Sistema Informatico per Nuovo Ospedale
 
 **Personaggi:**
-- **Dr. Martinelli** - Direttore Sanitario Ospedale San Leonardo (in apertura tra 6 mesi)
-- **Ing. Rossi** - Consulente Informatico di TechHealth Solutions
+- **Dr. Martinelli** - Direttore sanitario ospedale san Leonardo (in apertura tra 6 mesi)
+- **Ing. Rossi** - Consulente informatico di TechHealth Solutions
 
 ---
 
