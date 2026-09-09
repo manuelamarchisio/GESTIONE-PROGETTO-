@@ -12,7 +12,7 @@ della documentazione di progetto.
 
 ## Contenuto della repository
 
-### [`1_COPIONE_INTERVISTA.md`](INTERVISTA/1_COPIONE_INTERVISTA.md) — Il copione dell'intervista
+### [`1_COPIONE_INTERVISTA.md`](0_COPIONE_INTERVISTA.md) — Il copione dell'intervista
 
 Testo drammaturgico suddiviso in due parti.
 
@@ -38,7 +38,7 @@ il *sistema di prenotazione visite* e la *cartella clinica elettronica*.
 
 ---
 
-### [`2_GUIDA_DOCENTE.md`](INTERVISTA/2_GUIDA_DOCENTE.md) — La guida per i docenti
+### [`2_GUIDA_DOCENTE.md`](1_GUIDA_DOCENTE.md) — La guida per i docenti
 
 Descrive gli obiettivi didattici delle due parti, elenca le criticità presenti
 nel copione (con indicazione precisa di dove emergono nel dialogo), suggerisce
@@ -57,13 +57,13 @@ dei requisiti:
 
 ---
 
-### [`3_SCHEDA_STUDENTE.md`](INTERVISTA/3_SCHEDA_STUDENTE.md) — La scheda studente
+### [`3_SCHEDA_STUDENTE.md`](2_SCHEDA_STUDENTE.md) — La scheda studente
 
 Documento di lavoro individuale da compilare durante l'intervista simulata.
 
 ---
 
-### [`4_SOLUZIONI_SUGGERITE.md`](INTERVISTA/4_SOLUZIONI_SUGGERITE.md) — Le soluzioni suggerite *(riservato ai docenti)*
+### [`4_SOLUZIONI_SUGGERITE.md`](3_SOLUZIONI_SUGGERITE.md) — Le soluzioni suggerite *(riservato ai docenti)*
 
 Fornisce le soluzioni di riferimento per tutte le sezioni della scheda studente:
 circa 14–20 requisiti funzionali e 10–12 requisiti non funzionali identificabili
