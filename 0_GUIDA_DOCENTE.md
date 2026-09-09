@@ -399,3 +399,33 @@ Al termine dell'esercizio è utile richiamare l'attenzione su alcuni punti chiav
 * **Usare descrizioni troppo generiche per i processi:** Scrivere "Gestione Ospedale" anziché dividere l'operazione in funzioni più specifiche come "Registra appuntamento" o "Consulta referto".
 * **Omettere la descrizione sui flussi:** Tracciare frecce senza indicare quali dati stanno viaggiando da un punto all'altro dello schema.
 * **Disegnare connessioni dirette tra due archivi:** Un archivio dati non può comunicare direttamente con un altro archivio; il passaggio delle informazioni deve sempre avvenire attraverso un processo di elaborazione.
+
+* ## RIEPILOGO PER I DOCENTI - PARTE 2
+
+### Obiettivi della seconda parte:
+✅ Far costruire attivamente un DFD (non solo ascoltare)
+✅ Identificare: entità esterne, processi, archivi dati, flussi
+✅ Capire le relazioni tra sottosistemi
+✅ Introdurre problematiche di concorrenza, sicurezza, integrazione
+✅ Preparare il terreno per la progettazione del database
+
+### Cosa devono aver capito gli studenti:
+- **Entità esterne**: chi usa il sistema (Paziente, Medico, CUP)
+- **Processi**: cosa fa il sistema (Gestisci Prenotazione, Consulta Cartella, ecc.)
+- **Archivi dati**: dove si memorizzano le informazioni
+- **Flussi di dati**: quali informazioni scambiate tra processi e archivi
+- **Integrazione**: come i sottosistemi comunicano
+
+### Materiali necessari:
+- Lavagna o proiettore per disegnare il DFD insieme
+- Scheda studente con spazio per il disegno (vedi file 3 aggiornato)
+- Colori diversi per distinguere entità/processi/archivi
+
+### Consigli pratici:
+- **Fate disegnare gli studenti**, non solo voi!
+- Usate convenzioni DFD standard (cerchi=processi, rettangoli=entità esterne, rettangoli doppi=archivi)
+- Procedete per **iterazioni**: prima semplice, poi raffinate
+- Valorizzate gli errori: "Bene! Avete individuato un problema..."
+
+**NOTE PER I DOCENTI:** Alla fine della Parte 2, lasciate 15 minuti agli studenti per completare il disegno del DFD sulla loro scheda, poi fate confronto in gruppi.
+
