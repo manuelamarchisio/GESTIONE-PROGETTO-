@@ -57,9 +57,9 @@
 
 **INTERVENTO RAGAZZI**
 
-**ING. ROSSI:** Certamente, sono integrazioni standard. Avete già contattato i fornitori di questi sistemi per ottenere le specifiche tecniche delle loro interfacce?
+**ING. ROSSI:** Certamente, sono integrazioni standard. Avete già contattato i fornitori di questi sistemi per ottenere le specifiche tecniche delle loro API?
 
-**DR.SSA MARTINELLI:** Interfacce? Che cosa sono?
+**DR.SSA MARTINELLI:** API? Che cosa sono?
 
 **ING. ROSSI:** Sono le interfacce che permettono ai sistemi diversi di comunicare tra loro. Per integrarci con i sistemi esterni, avremo bisogno della loro documentazione tecnica.
 

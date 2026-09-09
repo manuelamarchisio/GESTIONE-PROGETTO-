@@ -105,7 +105,7 @@
 ### 3. ASPETTATIVE NON REALISTICHE
 
 1. **"IA che suggerisce diagnosi come Google"**
-   - **Perché irrealistico:** IA medica richiede anni di sviluppo, validazione clinica, certificazioni, responsabilità legale, costi elevatissimi
+   - **Perché irrealistico:** validazione clinica, certificazioni, responsabilità legale, costi elevatissimi
 
 2. **"Sistema completo in 6 mesi"**
    - **Perché irrealistico:** Sviluppo, test, integrazioni, formazione richiedono 12-18 mesi per sistemi di questa portata
@@ -139,7 +139,7 @@
 
 ---
 
-### 5. ESPANSIONE DELLO SCOPE
+### 5. ESPANSIONE DELLO SCOPE (requisiti che crescono)
 
 Nuovi requisiti emersi durante la conversazione:
 
@@ -238,7 +238,7 @@ Nuovi requisiti emersi durante la conversazione:
 
 ---
 
-### FASE 1 - PMV per apertura (6 mesi)
+### FASE 1 - PMV (Prodotto Minimo Vitale) per apertura (6 mesi) (o MVP o  primo prototipo funzionante)
 
 **Funzionalità critiche:**
 
@@ -364,40 +364,8 @@ Un bravo analista di requisiti deve avere:
 
 ---
 
-## NOTE FINALI PER I DOCENTI
-
-### Valutazione delle risposte aperte
-
-Non cercate risposte identiche a queste: valutate:
--  La **comprensione del concetto**
--  La **capacità di motivare** le risposte
--  Il **collegamento con l'intervista**
--  La **profondità dell'analisi**
-
-Le risposte "fuori dagli schemi" ma ben motivate vanno premiate!
-
-### Risposte insufficienti
-
-Esempi di risposte che indicano incomprensione:
-
- "Requisito funzionale: deve essere veloce" → è non funzionale
-  Non ci sono problemi, basta che il consulente lavori bene" → non ha colto le criticità
- "Il cliente è stupido" → giudizio superficiale, non analisi
- Liste di requisiti solo vaghe ("deve funzionare bene") → non ha colto il problema dell'ambiguità
-
-### Approfondimenti per studenti eccellenti
-
-Se avete studenti molto bravi che finiscono prima:
-- Fategli disegnare un Use Case Diagram
-- Fategli abbozzare il database (entità principali)
-- Fategli scrivere 3 User Stories in formato Agile
-- Fategli ricercare un software esistente e confrontarlo coi requisiti
-
----
-
----
-
-## PARTE 7: SOLUZIONI DFD
+## PARTE 7: SOLUZIONI DFD 
+NOTA. GLi schemi si vedono meglio su Github desktop
 
 ---
 
