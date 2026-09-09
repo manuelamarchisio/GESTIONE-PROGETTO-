@@ -155,14 +155,16 @@ L'attività intende far riflettere gli studenti su alcuni aspetti chiave dello s
 
 ## CONDUZIONE DELLA LEZIONE IN CLASSE
 
-### Fase 1: Raccolta individuale (10 minuti)
-Gli studenti analizzano il testo dell'intervista e compilano le proprie note.
+### Fase 1: Intervista 
+Intervista seguendo il copione in [1_COPIONE_INTERVISTA](1_COPIONE_INTERVISTA)
+Si spiega ai ragazzi che dovranno prendere appunti e raccogliere quali sono i requisiti del sistema
+Durante l'intervista i ragazzi inoltre potranno intervenire e dialogare con il cliente.
 
-### Fase 2: Lavoro di gruppo (15 minuti)
+### Fase 2: Lavoro di gruppo
 * Si dividono gli studenti in piccoli gruppi di 3 o 4 persone.
 * Ogni gruppo confronta le criticità individuate e sintetizza un elenco condiviso.
 
-### Fase 3: Discussione generale (20-25 minuti)
+### Fase 3: Discussione generale 
 
 **Spunti per il dibattito:**
 1. Quali richieste vi sembrano chiare e quali sono scritte in modo ambiguo?
@@ -170,13 +172,15 @@ Gli studenti analizzano il testo dell'intervista e compilano le proprie note.
 3. Se aveste condotto voi l'intervista, come vi sareste comportati nei punti più critici?
 4. L'atteggiamento di questo cliente è un caso isolato o rispecchia situazioni frequenti nella realtà lavorativa?
 
-### Fase 4: Quadro teorico (15 minuti)
+### Fase 4: Quadro teorico 
 * Definizione formale del concetto di requisito
 * Differenza tra requisiti funzionali e requisiti non funzionali
+* Far svolgere ai ragazzi la [SCHEDA_STUDENTE](2_SCHEDA_STUDENTE.md)
 * Metodi per raccogliere le informazioni dai clienti
 * Tecniche per concordare obiettivi e priorità
 
-### Fase 5: Esercitazione pratica (20 minuti)
+### Fase 5: Esercitazione pratica 
+Fornire agli studenti la scheda cartacea dell'intervista.
 Chiedere agli studenti di rielaborare da 3 a 5 frasi dell'intervista trasformandole in requisiti ben definiti:
 * Formulazione chiara, precisa e verificabile
 * Distinzione tra aspetti funzionali e vincoli tecnici
@@ -234,15 +238,6 @@ I criteri da considerare per la valutazione dell'attività sono:
 * **Classificazione:** correttezza nel distinguere tra funzioni del sistema e vincoli tecnici o gestionali
 * **Qualità delle soluzioni:** efficacia e praticabilità delle contromisure proposte
 * **Chiarezza ed esposizione:** qualità dell'apporto personale durante le fasi di lavoro di gruppo e di discussione
-
----
-
-## IDEE PER APPROFONDIRE
-
-1. **Stesura del documento di analisi:** far redigere una prima bozza di documento dei requisiti strutturato in modo formale.
-2. **Simulazione di ruoli (Role playing):** far interpretare agli studenti una seconda intervista, divisi tra il ruolo di analisti e quello di clienti con esigenze complesse.
-3. **Analisi di casi reali:** mostrare esempi di progetti software reali che hanno riscontrato problemi a causa di un'analisi errata dei requisiti.
-
 ---
 
 ## NOTA CONCLUSIVA PER IL DOCENTE
@@ -404,3 +399,33 @@ Al termine dell'esercizio è utile richiamare l'attenzione su alcuni punti chiav
 * **Usare descrizioni troppo generiche per i processi:** Scrivere "Gestione Ospedale" anziché dividere l'operazione in funzioni più specifiche come "Registra appuntamento" o "Consulta referto".
 * **Omettere la descrizione sui flussi:** Tracciare frecce senza indicare quali dati stanno viaggiando da un punto all'altro dello schema.
 * **Disegnare connessioni dirette tra due archivi:** Un archivio dati non può comunicare direttamente con un altro archivio; il passaggio delle informazioni deve sempre avvenire attraverso un processo di elaborazione.
+
+* ## RIEPILOGO PER I DOCENTI - PARTE 2
+
+### Obiettivi della seconda parte:
+✅ Far costruire attivamente un DFD (non solo ascoltare)
+✅ Identificare: entità esterne, processi, archivi dati, flussi
+✅ Capire le relazioni tra sottosistemi
+✅ Introdurre problematiche di concorrenza, sicurezza, integrazione
+✅ Preparare il terreno per la progettazione del database
+
+### Cosa devono aver capito gli studenti:
+- **Entità esterne**: chi usa il sistema (Paziente, Medico, CUP)
+- **Processi**: cosa fa il sistema (Gestisci Prenotazione, Consulta Cartella, ecc.)
+- **Archivi dati**: dove si memorizzano le informazioni
+- **Flussi di dati**: quali informazioni scambiate tra processi e archivi
+- **Integrazione**: come i sottosistemi comunicano
+
+### Materiali necessari:
+- Lavagna o proiettore per disegnare il DFD insieme
+- Scheda studente con spazio per il disegno (vedi file 3 aggiornato)
+- Colori diversi per distinguere entità/processi/archivi
+
+### Consigli pratici:
+- **Fate disegnare gli studenti**, non solo voi!
+- Usate convenzioni DFD standard (cerchi=processi, rettangoli=entità esterne, rettangoli doppi=archivi)
+- Procedete per **iterazioni**: prima semplice, poi raffinate
+- Valorizzate gli errori: "Bene! Avete individuato un problema..."
+
+**NOTE PER I DOCENTI:** Alla fine della Parte 2, lasciate 15 minuti agli studenti per completare il disegno del DFD sulla loro scheda, poi fate confronto in gruppi.
+
