@@ -2,13 +2,8 @@
 ## Sistema informatico per il nuovo ospedale
 
 **Personaggi:**
-<<<<<<< HEAD
 - **Dr.ssa Martinelli** - Direttrice sanitario dell'ospedale san Leonardo (in apertura tra 6 mesi)
 - **Ing. Rossi** - Consulente informatico di un'azienda privata
-=======
-- **Dr. Martinelli** - Direttore sanitario ospedale san Leonardo (in apertura tra 6 mesi)
-- **Ing. Rossi** - Consulente informatico di TechHealth Solutions
->>>>>>> 21b640e3cd6b406580452f2f99e3ecc74d4f7a64
 
 ---
 
@@ -42,7 +37,7 @@
 
 **DR.SSA MARTINELLI:** Assolutamente sì! Vogliamo un'app moderna, con tutte le funzionalità. I pazienti devono poter prenotare, vedere i referti, pagare in linea, chiamare il medico... magari anche una chat con l'intelligenza artificiale per i primi consulti!
 
-**ING. ROSSI:** *(annota intensamente)* Questo richiederà un'infrastruttura significativa. Parliamo di budget: avete già stabilito quanto investire?
+**ING. ROSSI:** *(esita)* Questo richiederà un'infrastruttura significativa. Parliamo di budget: avete già stabilito quanto investire?
 
 **DR.SSA MARTINELLI:** Beh, non vogliamo spendere troppo... diciamo che abbiamo allocato 80.000 euro per tutto il sistema informatico. Dovrebbe bastare, no? Ormai la tecnologia costa poco!
 
@@ -111,7 +106,7 @@
 
 **ING. ROSSI:** Ottima idea. Un'ultima domanda: avete preferenze per il cloud o per server in locale?
 
-**DR.SSA MARTINELLI:** *(confuso)* Ehm... quale costa meno?
+**DR.SSA MARTINELLI:** *(confusa)* Ehm... quale costa meno?
 
 **INTERVENTO RAGAZZI**
 
@@ -132,7 +127,7 @@
 ---
 
 # PARTE 2: COSTRUZIONE DEL DFD
-## Analisi dei Flussi Dati - Sistema Prenotazioni e Cartella Clinica
+## Analisi dei flussi dati - Sistema prenotazioni e cartella clinica
 
 **Durata stimata:** 20-25 minuti
 
@@ -146,8 +141,6 @@ Concentriamoci su due funzionalità critiche che ha menzionato:
 
 Per farlo useremo un **Diagramma di flusso dei dati (DFD)** - cioè un diagramma che mostra chi fa cosa, quali dati vengono scambiati e dove vengono memorizzati.
 
-**DR.SSA MARTINELLI:** Un diagramma? Ah, ottimo! Anch'io sono curioso di vedere come funzionerà tutto questo!
-
 ---
 
 ### COSTRUZIONE DFD - SISTEMA PRENOTAZIONE VISITE
@@ -157,9 +150,9 @@ Per farlo useremo un **Diagramma di flusso dei dati (DFD)** - cioè un diagramma
 **[PAUSA - I ragazzi rispondono]**
 
 **ING. ROSSI:** Esatto! Abbiamo:
-- Il **Paziente** (entità esterna)
-- Il **Personale amministrativo** / CUP (entità esterna)
-- Il **Medico** (entità esterna)
+- Il **Paziente** 
+- Il **Personale amministrativo** / CUP 
+- Il **Medico**
 
 Bene. Ora, quali sono le **azioni principali** che questi attori devono compiere? Ragioniamo sul paziente: cosa deve poter fare?
 
@@ -188,18 +181,97 @@ E dove vengono **memorizzate** queste informazioni? Abbiamo bisogno di alcuni **
 
 Ora disegniamo insieme il **processo**. *(disegna alla lavagna/proietta)*
 
-```
-[PAZIENTE] ---(Richiesta prenotazione)---> [P1: Gestisci Prenotazione]
-                                                    |
-                                    legge/scrive   |
-                                                    v
-                                         [D1: Archivio Prenotazioni]
-                                                    ^
-                                                    |
-                                    legge          |
-                                                    |
-                              [D2: Archivio Medici] - [D3: Archivio Pazienti]
-```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" style="border:2px solid #333; background: #f0f0f0;">
+  <!-- Sfondo -->
+  <rect width="1000" height="600" fill="#f0f0f0"/>
+  <!-- Stile -->
+  <defs>
+    <style>
+      .entity { fill: #4db8ff; stroke: #003d99; stroke-width: 3; }
+      .process { fill: #ffeb3b; stroke: #f57f17; stroke-width: 3; }
+      .datastore { fill: #ce93d8; stroke: #6a1b9a; stroke-width: 3; }
+      .arrow { stroke: #000; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #000; font-weight: bold; }
+      .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #000; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+
+  <!-- Titolo -->
+  <text x="500" y="30" text-anchor="middle" class="title">DFD - Sistema di Prenotazione Visite</text>
+
+  <!-- ENTITÀ ESTERNA: PAZIENTE (sinistra) -->
+  <rect x="50" y="200" width="140" height="80" rx="10" class="entity"/>
+  <text x="120" y="245" text-anchor="middle" class="label" font-weight="bold">PAZIENTE</text>
+
+  <!-- PROCESSO P1: Gestisci Prenotazione (centro) -->
+  <circle cx="380" cy="240" r="60" class="process"/>
+  <text x="380" y="230" text-anchor="middle" class="label" font-weight="bold">P1</text>
+  <text x="380" y="250" text-anchor="middle" class="label" font-size="11">Gestisci</text>
+  <text x="380" y="265" text-anchor="middle" class="label" font-size="11">Prenotazione</text>
+
+  <!-- ARCHIVI DATI (destra) -->
+  <!-- D1: Archivio Prenotazioni (alto) -->
+  <rect x="700" y="120" width="180" height="70" class="datastore"/>
+  <rect x="705" y="125" width="170" height="60" class="datastore"/>
+  <text x="790" y="160" text-anchor="middle" class="label" font-weight="bold">D1</text>
+  <text x="790" y="178" text-anchor="middle" class="label" font-size="11">Archivio Prenotazioni</text>
+
+  <!-- D2: Archivio Medici (basso sx) -->
+  <rect x="620" y="420" width="160" height="70" class="datastore"/>
+  <rect x="625" y="425" width="150" height="60" class="datastore"/>
+  <text x="700" y="455" text-anchor="middle" class="label" font-weight="bold">D2</text>
+  <text x="700" y="473" text-anchor="middle" class="label" font-size="11">Archivio Medici</text>
+
+  <!-- D3: Archivio Pazienti (basso dx) -->
+  <rect x="820" y="420" width="160" height="70" class="datastore"/>
+  <rect x="825" y="425" width="150" height="60" class="datastore"/>
+  <text x="900" y="455" text-anchor="middle" class="label" font-weight="bold">D3</text>
+  <text x="900" y="473" text-anchor="middle" class="label" font-size="11">Archivio Pazienti</text>
+
+  <!-- FRECCE E FLUSSI DI DATI -->
+  
+  <!-- Paziente -> P1: Richiesta prenotazione -->
+  <path d="M 190 240 Q 280 240 320 240" class="arrow"/>
+  <text x="255" y="220" class="label" font-size="11" fill="#000">Richiesta prenotazione</text>
+
+  <!-- P1 -> D1: legge/scrive -->
+  <path d="M 430 260 Q 560 260 700 165" class="arrow"/>
+  <text x="550" y="250" class="label" font-size="11" fill="#000">legge/scrive</text>
+
+  <!-- D1 -> P1: feedback -->
+  <path d="M 700 155 Q 560 200 430 220" class="arrow"/>
+  <text x="550" y="185" class="label" font-size="11" fill="#000">disponibilità</text>
+
+  <!-- P1 -> D2: legge -->
+  <path d="M 350 290 Q 350 350 680 420" class="arrow"/>
+  <text x="380" y="370" class="label" font-size="11" fill="#000">legge</text>
+
+  <!-- P1 -> D3: legge -->
+  <path d="M 410 290 Q 470 350 820 420" class="arrow"/>
+  <text x="520" y="370" class="label" font-size="11" fill="#000">legge</text>
+
+  <!-- D2 <-> D3: collegamento -->
+  <line x1="780" y1="455" x2="820" y2="455" stroke="#6a1b9a" stroke-width="2"/>
+  <text x="795" y="475" text-anchor="middle" class="label" font-size="10">chiave ID</text>
+
+  <!-- LEGENDA -->
+  <g transform="translate(50, 530)">
+    <text x="0" y="0" class="title" font-size="12">LEGENDA:</text>
+    
+    <rect x="0" y="15" width="30" height="30" rx="5" class="entity"/>
+    <text x="40" y="35" class="label">Entità esterna</text>
+    
+    <circle cx="155" cy="30" r="15" class="process"/>
+    <text x="180" y="35" class="label">Processo</text>
+    
+    <rect x="300" y="15" width="30" height="30" class="datastore"/>
+    <rect x="303" y="18" width="24" height="24" class="datastore"/>
+    <text x="340" y="35" class="label">Archivio dati</text>
+  </g>
+</svg>
 
 **ING. ROSSI:** Il **processo P1** cosa deve fare esattamente? Quali passi?
 
@@ -222,13 +294,55 @@ E se il paziente vuole **modificare o cancellare**? Serve un altro processo?
 
 **ING. ROSSI:** *(completa il diagramma)* Esattamente, aggiungiamo:
 
-```
-[PAZIENTE] ---(Richiesta modifica/cancellazione)---> [P2: Modifica Prenotazione]
-                                                              |
-                                                    verifica/aggiorna
-                                                              v
-                                                   [D1: Archivio Prenotazioni]
-```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" style="border:2px solid #333; background: #f0f0f0;">
+  <rect width="900" height="300" fill="#f0f0f0"/>
+  <defs>
+    <style>
+      .entity { fill: #4db8ff; stroke: #003d99; stroke-width: 3; }
+      .process { fill: #ffeb3b; stroke: #f57f17; stroke-width: 3; }
+      .datastore { fill: #ce93d8; stroke: #6a1b9a; stroke-width: 3; }
+      .arrow { stroke: #000; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #000; font-weight: bold; }
+      .title { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #000; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+
+  <text x="450" y="25" text-anchor="middle" class="title">P2: Modifica o Cancellazione Prenotazione</text>
+
+  <!-- ENTITÀ ESTERNA: PAZIENTE -->
+  <rect x="50" y="80" width="140" height="80" rx="10" class="entity"/>
+  <text x="120" y="130" text-anchor="middle" class="label" font-weight="bold">PAZIENTE</text>
+
+  <!-- PROCESSO P2 -->
+  <circle cx="320" cy="120" r="55" class="process"/>
+  <text x="320" y="110" text-anchor="middle" class="label" font-weight="bold">P2</text>
+  <text x="320" y="135" text-anchor="middle" class="label" font-size="11">Modifica</text>
+
+  <!-- ARCHIVIO PRENOTAZIONI -->
+  <rect x="600" y="70" width="180" height="70" class="datastore"/>
+  <rect x="605" y="75" width="170" height="60" class="datastore"/>
+  <text x="690" y="105" text-anchor="middle" class="label" font-weight="bold">D1</text>
+  <text x="690" y="123" text-anchor="middle" class="label" font-size="11">Archivio Prenotazioni</text>
+
+  <!-- FRECCE -->
+  <!-- Paziente -> P2 -->
+  <path d="M 190 120 Q 250 120 265 120" class="arrow"/>
+  <text x="220" y="105" class="label" font-size="11" fill="#000">Richiesta modifica/cancellazione</text>
+
+  <!-- P2 -> D1 -->
+  <path d="M 375 110 Q 480 100 600 105" class="arrow"/>
+  <text x="480" y="95" class="label" font-size="11" fill="#000">verifica/aggiorna</text>
+
+  <!-- D1 -> P2 -->
+  <path d="M 600 125 Q 480 140 375 130" class="arrow"/>
+  <text x="480" y="155" class="label" font-size="11" fill="#000">disponibilità</text>
+
+  <!-- Output -->
+  <text x="690" y="200" text-anchor="middle" class="label">Prenotazione modificata/cancellata</text>
+</svg>
 
 ---
 
@@ -272,18 +386,81 @@ Ora, quali sono i **processi principali**? Cosa fa il medico con la cartella?
 
 Disegniamo:
 
-```
-[MEDICO] ---(Richiesta consultazione)---> [P3: Consulta Cartella] ---> [MEDICO]
-                                                     |
-                                          legge     |
-                                                     v
-                                          [D4: Archivio Cartelle Cliniche]
-                                                     ^
-                                                     |
-                                          scrive    |
-                                                     |
-[MEDICO] ---(Dati nuova visita)---> [P4: Aggiorna Cartella]
-```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" style="border:2px solid #333; background: #f0f0f0;">
+  <rect width="1000" height="500" fill="#f0f0f0"/>
+  <defs>
+    <style>
+      .entity { fill: #4db8ff; stroke: #003d99; stroke-width: 3; }
+      .process { fill: #ffeb3b; stroke: #f57f17; stroke-width: 3; }
+      .datastore { fill: #ce93d8; stroke: #6a1b9a; stroke-width: 3; }
+      .arrow { stroke: #000; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #000; font-weight: bold; }
+      .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #000; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+
+  <text x="500" y="30" text-anchor="middle" class="title">DFD - Cartella Clinica Elettronica</text>
+
+  <!-- MEDICI/INFERMIERI (entità esterne) -->
+  <rect x="50" y="80" width="140" height="80" rx="10" class="entity"/>
+  <text x="120" y="130" text-anchor="middle" class="label" font-weight="bold">MEDICO/</text>
+  <text x="120" y="150" text-anchor="middle" class="label" font-weight="bold">INFERMIERE</text>
+
+  <!-- P3: Consulta Cartella (alto) -->
+  <circle cx="350" cy="120" r="50" class="process"/>
+  <text x="350" y="110" text-anchor="middle" class="label" font-weight="bold">P3</text>
+  <text x="350" y="135" text-anchor="middle" class="label" font-size="11">Consulta</text>
+
+  <!-- P4: Aggiorna Cartella (basso) -->
+  <circle cx="350" cy="320" r="50" class="process"/>
+  <text x="350" y="310" text-anchor="middle" class="label" font-weight="bold">P4</text>
+  <text x="350" y="335" text-anchor="middle" class="label" font-size="11">Aggiorna</text>
+
+  <!-- D4: Archivio Cartelle Cliniche (destra) -->
+  <rect x="650" y="180" width="200" height="80" class="datastore"/>
+  <rect x="655" y="185" width="190" height="70" class="datastore"/>
+  <text x="750" y="215" text-anchor="middle" class="label" font-weight="bold">D4</text>
+  <text x="750" y="235" text-anchor="middle" class="label" font-size="11">Archivio Cartelle</text>
+  <text x="750" y="250" text-anchor="middle" class="label" font-size="11">Cliniche</text>
+
+  <!-- FRECCE CONSULTAZIONE -->
+  <!-- Medico -> P3 -->
+  <path d="M 190 120 Q 270 120 300 120" class="arrow"/>
+  <text x="230" y="105" class="label" font-size="11" fill="#000">Richiesta consultazione</text>
+
+  <!-- P3 -> D4 legge -->
+  <path d="M 395 140 Q 520 160 650 205" class="arrow"/>
+  <text x="500" y="155" class="label" font-size="11" fill="#000">legge</text>
+
+  <!-- D4 -> P3 risposta -->
+  <path d="M 650 200 Q 520 160 395 115" class="arrow"/>
+  <text x="500" y="185" class="label" font-size="11" fill="#000">dati clinici</text>
+
+  <!-- P3 -> Medico visualizzazione -->
+  <path d="M 300 120 Q 170 120 190 120" class="arrow"/>
+  <text x="230" y="95" class="label" font-size="11" fill="#000">dati visualizzati</text>
+
+  <!-- FRECCE AGGIORNAMENTO -->
+  <!-- Medico -> P4 -->
+  <path d="M 190 200 Q 270 260 300 310" class="arrow"/>
+  <text x="230" y="250" class="label" font-size="11" fill="#000">Dati nuova visita/esame</text>
+
+  <!-- P4 -> D4 scrive -->
+  <path d="M 395 320 Q 520 290 650 260" class="arrow"/>
+  <text x="500" y="315" class="label" font-size="11" fill="#000">scrive/aggiorna</text>
+
+  <!-- D4 -> P4 conferma -->
+  <path d="M 650 240 Q 520 280 395 310" class="arrow"/>
+  <text x="500" y="280" class="label" font-size="11" fill="#000">conferma</text>
+
+  <!-- Legenda -->
+  <g transform="translate(50, 430)">
+    <text x="0" y="0" class="label" font-weight="bold">NOTA: Il processo P3 e P4 accedono lo stesso archivio D4 (Cartelle Cliniche)</text>
+  </g>
+</svg>
 
 **ING. ROSSI:** Ma attenzione! DR.SSA Martinelli ha detto "accessibile da tutti i medici". Questo solleva un problema: **chi può vedere/modificare cosa?** Serve un controllo degli accessi!
 
@@ -293,13 +470,65 @@ Disegniamo:
 
 **ING. ROSSI:** Esattamente! Serve un **processo di autenticazione e autorizzazione**. Aggiungiamo:
 
-```
-[UTENTE] ---(Credenziali)---> [P5: Autenticazione] ---> (Verifica) ---> [D5: Archivio Utenti/Permessi]
-                                        |
-                                (Token accesso)
-                                        v
-                            [Accesso ai processi P3, P4...]
-```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" style="border:2px solid #333; background: #f0f0f0;">
+  <rect width="1000" height="400" fill="#f0f0f0"/>
+  <defs>
+    <style>
+      .entity { fill: #4db8ff; stroke: #003d99; stroke-width: 3; }
+      .process { fill: #ffeb3b; stroke: #f57f17; stroke-width: 3; }
+      .datastore { fill: #ce93d8; stroke: #6a1b9a; stroke-width: 3; }
+      .arrow { stroke: #000; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #000; font-weight: bold; }
+      .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #000; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+
+  <text x="500" y="30" text-anchor="middle" class="title">P5: Autenticazione e Autorizzazione</text>
+
+  <!-- UTENTE (entità esterna) -->
+  <rect x="50" y="140" width="120" height="80" rx="10" class="entity"/>
+  <text x="110" y="190" text-anchor="middle" class="label" font-weight="bold">UTENTE</text>
+
+  <!-- P5: Autenticazione -->
+  <circle cx="300" cy="180" r="50" class="process"/>
+  <text x="300" y="170" text-anchor="middle" class="label" font-weight="bold">P5</text>
+  <text x="300" y="195" text-anchor="middle" class="label" font-size="11">Autenticazione</text>
+
+  <!-- D5: Archivio Utenti/Permessi -->
+  <rect x="620" y="130" width="200" height="80" class="datastore"/>
+  <rect x="625" y="135" width="190" height="70" class="datastore"/>
+  <text x="720" y="165" text-anchor="middle" class="label" font-weight="bold">D5</text>
+  <text x="720" y="185" text-anchor="middle" class="label" font-size="11">Archivio Utenti/</text>
+  <text x="720" y="200" text-anchor="middle" class="label" font-size="11">Permessi</text>
+
+  <!-- FRECCE -->
+  <!-- Utente -> P5 -->
+  <path d="M 170 180 Q 230 180 250 180" class="arrow"/>
+  <text x="200" y="165" class="label" font-size="11" fill="#000">Credenziali</text>
+
+  <!-- P5 -> D5 verifica -->
+  <path d="M 350 160 Q 480 150 620 165" class="arrow"/>
+  <text x="480" y="145" class="label" font-size="11" fill="#000">verifica</text>
+
+  <!-- D5 -> P5 risposta -->
+  <path d="M 620 200 Q 480 210 350 200" class="arrow"/>
+  <text x="480" y="225" class="label" font-size="11" fill="#000">permessi confermati</text>
+
+  <!-- P5 -> Utente -->
+  <path d="M 250 180 Q 170 180 170 180" class="arrow"/>
+  <text x="200" y="230" text-anchor="middle" class="label" font-size="11" fill="#000">Token accesso</text>
+
+  <!-- Accesso ai processi (box di destinazione) -->
+  <rect x="300" y="300" width="350" height="60" fill="#e8f5e9" stroke="#2e7d32" stroke-width="2" rx="5"/>
+  <text x="475" y="320" text-anchor="middle" class="label" font-weight="bold">Accesso consentito ai processi P3, P4 e altri</text>
+  <text x="475" y="340" text-anchor="middle" class="label" font-size="11">(a seconda del ruolo e dei permessi)</text>
+
+  <!-- Freccia di flow -->
+  <path d="M 380 260 Q 380 280 420 300" class="arrow" stroke-dasharray="5,5"/>
+</svg>
 
 ---
 
@@ -322,13 +551,83 @@ Disegniamo:
 
 Serve un processo che li colleghi:
 
-```
-[P6: Gestisci Accettazione]
-    |
-    |--- legge ---> [D1: Archivio Prenotazioni]
-    |--- legge/crea ---> [D4: Archivio Cartelle Cliniche]
-    |--- aggiorna ---> Stato prenotazione (da "confermata" a "in corso")
-```
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 500" style="border:2px solid #333; background: #f0f0f0;">
+  <rect width="1100" height="500" fill="#f0f0f0"/>
+  <defs>
+    <style>
+      .entity { fill: #4db8ff; stroke: #003d99; stroke-width: 3; }
+      .process { fill: #ffeb3b; stroke: #f57f17; stroke-width: 3; }
+      .datastore { fill: #ce93d8; stroke: #6a1b9a; stroke-width: 3; }
+      .arrow { stroke: #000; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #000; font-weight: bold; }
+      .title { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #000; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+
+  <text x="550" y="30" text-anchor="middle" class="title">P6: Gestisci Accettazione - Integrazione Prenotazioni e Cartella Clinica</text>
+
+  <!-- PAZIENTE (entità esterna) -->
+  <rect x="50" y="180" width="120" height="80" rx="10" class="entity"/>
+  <text x="110" y="230" text-anchor="middle" class="label" font-weight="bold">PAZIENTE</text>
+
+  <!-- P6: Gestisci Accettazione (centro) -->
+  <circle cx="300" cy="220" r="55" class="process"/>
+  <text x="300" y="210" text-anchor="middle" class="label" font-weight="bold">P6</text>
+  <text x="300" y="235" text-anchor="middle" class="label" font-size="11">Accettazione</text>
+
+  <!-- D1: Archivio Prenotazioni (alto) -->
+  <rect x="620" y="80" width="180" height="70" class="datastore"/>
+  <rect x="625" y="85" width="170" height="60" class="datastore"/>
+  <text x="710" y="115" text-anchor="middle" class="label" font-weight="bold">D1</text>
+  <text x="710" y="133" text-anchor="middle" class="label" font-size="11">Prenotazioni</text>
+
+  <!-- D4: Archivio Cartelle Cliniche (basso) -->
+  <rect x="620" y="330" width="180" height="70" class="datastore"/>
+  <rect x="625" y="335" width="170" height="60" class="datastore"/>
+  <text x="710" y="365" text-anchor="middle" class="label" font-weight="bold">D4</text>
+  <text x="710" y="383" text-anchor="middle" class="label" font-size="11">Cartelle Cliniche</text>
+
+  <!-- Output: Stato confermato -->
+  <rect x="900" y="200" width="150" height="60" fill="#c8e6c9" stroke="#2e7d32" stroke-width="2" rx="5"/>
+  <text x="975" y="220" text-anchor="middle" class="label" font-weight="bold">Visita</text>
+  <text x="975" y="238" text-anchor="middle" class="label" font-size="11">in corso</text>
+
+  <!-- FRECCE -->
+  <!-- Paziente -> P6 -->
+  <path d="M 170 220 Q 230 220 245 220" class="arrow"/>
+  <text x="200" y="205" class="label" font-size="11" fill="#000">Presentazione</text>
+
+  <!-- P6 -> D1 legge -->
+  <path d="M 340 170 Q 500 130 620 115" class="arrow"/>
+  <text x="460" y="140" class="label" font-size="11" fill="#000">legge prenotazione</text>
+
+  <!-- D1 -> P6 -->
+  <path d="M 620 130 Q 500 200 355 210" class="arrow"/>
+  <text x="460" y="180" class="label" font-size="11" fill="#000">dati prenotazione</text>
+
+  <!-- P6 -> D4 legge/crea -->
+  <path d="M 340 260 Q 500 300 620 360" class="arrow"/>
+  <text x="460" y="315" class="label" font-size="11" fill="#000">legge/crea cartella</text>
+
+  <!-- D4 -> P6 -->
+  <path d="M 620 350 Q 500 280 355 240" class="arrow"/>
+  <text x="460" y="300" class="label" font-size="11" fill="#000">cartella aperta</text>
+
+  <!-- P6 -> Output -->
+  <path d="M 355 220 Q 820 220 900 230" class="arrow"/>
+  <text x="820" y="205" text-anchor="middle" class="label" font-size="11" fill="#000">aggiorna stato</text>
+
+  <!-- Legenda processo -->
+  <g transform="translate(50, 410)">
+    <text x="0" y="0" class="label" font-weight="bold">PROCESSO P6 coordina:</text>
+    <text x="0" y="20" class="label">1. Verifica della prenotazione in D1</text>
+    <text x="0" y="35" class="label">2. Apertura o creazione della cartella clinica in D4</text>
+    <text x="0" y="50" class="label">3. Aggiornamento dello stato da "confermata" a "in corso"</text>
+  </g>
+</svg>
 
 ---
 
