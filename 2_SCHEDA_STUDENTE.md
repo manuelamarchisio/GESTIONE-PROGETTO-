@@ -5,11 +5,11 @@
 
 ---
 
-## ISTRUZIONI
+## PARTE 0: ISTRUZIONI
 
 Durante l'intervista simulata tra il Dr. Martinelli (Direttore Sanitario) e l'Ing. Rossi (Consulente Informatico), dovrai:
 
-1. **ASCOLTARE ATTENTAMENTE** e prendere appunti
+1. **ASCOLTARE ATTENTAMENTE** e prendere appunti su un foglio bianco
 2. **IDENTIFICARE I REQUISITI** del sistema informatico richiesto
 3. **RICONOSCERE LE CRITICITÀ** emerse durante la conversazione
 4. **PROPORRE SOLUZIONI** ai problemi identificati
@@ -17,6 +17,7 @@ Durante l'intervista simulata tra il Dr. Martinelli (Direttore Sanitario) e l'In
 ---
 
 ## PARTE 1: REQUISITI IDENTIFICATI
+Categorizza i requisiti raccolti nella parte 0 compilando le tabelle sottostanti:
 
 ### A) REQUISITI FUNZIONALI
 > Cosa deve FARE il sistema? Quali funzionalità deve avere?
