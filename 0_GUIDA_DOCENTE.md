@@ -265,7 +265,7 @@ La seconda parte dell'attività è dedicata alla modellazione concettuale del si
 ### Strumenti consigliati:
 * Spazio alla lavagna o schermo interattivo
 * Colori differenti per evidenziare i vari elementi dello schema (es. un colore per gli attori esterni, uno per i processi, uno per gli archivi)
-* Scheda di lavoro per gli studenti
+* Scheda di lavoro per gli studenti [SCHEDA_STUDENTE](2_SCHEDA_STUDENTE.md)
 
 ### Convenzioni grafiche per il DFD:
 
@@ -403,11 +403,11 @@ Al termine dell'esercizio è utile richiamare l'attenzione su alcuni punti chiav
 * ## RIEPILOGO PER I DOCENTI - PARTE 2
 
 ### Obiettivi della seconda parte:
-✅ Far costruire attivamente un DFD (non solo ascoltare)
-✅ Identificare: entità esterne, processi, archivi dati, flussi
-✅ Capire le relazioni tra sottosistemi
-✅ Introdurre problematiche di concorrenza, sicurezza, integrazione
-✅ Preparare il terreno per la progettazione del database
+- Far costruire attivamente un DFD (non solo ascoltare)
+- Identificare: entità esterne, processi, archivi dati, flussi
+- Capire le relazioni tra sottosistemi
+- Introdurre problematiche di concorrenza, sicurezza, integrazione
+- Preparare il terreno per la progettazione del database
 
 ### Cosa devono aver capito gli studenti:
 - **Entità esterne**: chi usa il sistema (Paziente, Medico, CUP)
@@ -418,7 +418,7 @@ Al termine dell'esercizio è utile richiamare l'attenzione su alcuni punti chiav
 
 ### Materiali necessari:
 - Lavagna o proiettore per disegnare il DFD insieme
-- Scheda studente con spazio per il disegno (vedi file 3 aggiornato)
+- Scheda studente con spazio per il disegno [SCHEDA_STUDENTE](2_SCHEDA_STUDENTE.md)
 - Colori diversi per distinguere entità/processi/archivi
 
 ### Consigli pratici:
@@ -428,4 +428,3 @@ Al termine dell'esercizio è utile richiamare l'attenzione su alcuni punti chiav
 - Valorizzate gli errori: "Bene! Avete individuato un problema..."
 
 **NOTE PER I DOCENTI:** Alla fine della Parte 2, lasciate 15 minuti agli studenti per completare il disegno del DFD sulla loro scheda, poi fate confronto in gruppi.
-
