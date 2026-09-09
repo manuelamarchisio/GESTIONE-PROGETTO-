@@ -5,708 +5,402 @@
 
 ## OBIETTIVI DIDATTICI
 
-L'attività mira a far comprendere agli studenti:
-1. Le difficoltà reali nell'estrazione dei requisiti
-2. La differenza tra requisiti funzionali e non funzionali
-3. L'importanza della comunicazione tra cliente e tecnico
-4. Le criticità tipiche dei progetti IT
-5. La necessità di gestire aspettative e vincoli
+L'attività intende far riflettere gli studenti su alcuni aspetti chiave dello sviluppo software:
+1. Le difficoltà che si incontrano quando si raccolgono i requisiti sul campo
+2. La distinzione tra requisiti funzionali e non funzionali
+3. L'importanza di una comunicazione chiara tra cliente e informatico
+4. I problemi che possono far slittare o fallire un progetto IT
+5. Come gestire le aspettative di chi commissiona il lavoro tenendo conto dei vincoli reali
 
 ---
 
 ## CRITICITÀ EMERSE NELL'INTERVISTA
 
-### 1. **REQUISITI VAGHI E AMBIGUI**
+### 1. Requisiti vaghi e ambigui
 
 **Dove emerge:**
-- "Sistema moderno, efficiente... che funzioni bene"
-- "Ottimizzare gli appuntamenti"
-- "Interfaccia intuitiva" (mia zia di 70 anni...)
-- "App moderna con tutte le funzionalità"
+* "Sistema moderno, efficiente... che funzioni bene"
+* "Ottimizzare gli appuntamenti"
+* "Interfaccia intuitiva" (es. mia zia di 70 anni...)
+* "App con tutte le funzionalità"
 
 **Cosa far notare:**
-- Aggettivi generici non sono requisiti
-- Serve specificare COSA significa "ottimizzare" o "efficiente"
-- "Intuitivo" è soggettivo: servono criteri misurabili
-- "Tutte le funzionalità" è impossibile da definire
+* Gli aggettivi generici non indicano cosa deve fare il programma.
+* Bisogna definire in modo concreto cosa si intende per "ottimizzare" o "efficiente".
+* La facilità d'uso è un concetto soggettivo: servono parametri oggettivi per misurarla.
+* L'espressione "tutte le funzionalità" non permette di stabilire i confini del progetto.
 
 **Domande per gli studenti:**
-- Come trasformereste "efficiente" in un requisito misurabile?
-- Quali domande avrebbe dovuto fare il consulente per chiarire "ottimizzare"?
+* Come trasformereste l'idea di sistema "efficiente" in un requisito misurabile?
+* Quali domande specifiche avrebbe dovuto porre l'analista per chiarire l'obiettivo di "ottimizzare"?
 
 ---
 
-### 2. **CONFLITTO BUDGET/FUNZIONALITÀ**
+### 2. Conflitto tra budget e funzionalità
 
 **Dove emerge:**
-- 80.000€ per sistema completo con IA, app mobile, integrazioni
-- Aspettativa di costi bassi ("la tecnologia costa poco")
-- Richiesta di software gratuiti vs. esigenze enterprise
+* Budget di 80.000 € per un sistema completo con intelligenza artificiale, app per dispositivi mobili e varie integrazioni
+* L'idea errata che "la tecnologia ormai costa poco"
+* L'aspettativa di usare software gratuito per esigenze aziendali complesse
 
 **Cosa far notare:**
-- Il cliente spesso sottostima i costi reali
-- Esiste gap tra aspettative e realtà economica
-- Software "gratuito" non significa "senza costi"
-- Serve prioritizzare in base al budget
+* Spesso il cliente non ha un'idea reale di quanto costi sviluppare e integrare software.
+* C'è una distanza netta tra le aspettative del committente e la fattibilità economica.
+* Un software open source o gratuito non azzera i costi di configurazione, personalizzazione e manutenzione.
+* Con un budget prefissato è indispensabile stabilire delle priorità ed eliminare il superfluo.
 
 **Domande per gli studenti:**
-- Quali funzionalità escludereste con quel budget?
-- Come spieghereste al cliente che il budget è insufficiente?
+* Se doveste rientrare in quella cifra, quali moduli o funzioni tagliereste per primi?
+* In che modo spieghereste al cliente che il budget indicato non copre tutte le sue richieste?
 
 ---
 
-### 3. **ASPETTATIVE IRREALISTICHE**
+### 3. Aspettative irrealistiche
 
 **Dove emerge:**
-- "IA che suggerisce diagnosi" (come Google)
-- Sistema completo in 6 mesi
-- Integrazione automatica con tutti i sistemi esterni
-- "Mio nipote gestisce il Wi-Fi" come responsabile sicurezza
+* Un sistema di intelligenza artificiale che suggerisce diagnosi automatiche
+* La pretesa di avere tutto pronto in 6 mesi
+* L'integrazione immediata e automatica con qualsiasi sistema esterno
+* L'idea di affidare la sicurezza della rete al parente appassionato di informatica
 
 **Cosa far notare:**
-- IA medica richiede certificazioni e anni di sviluppo
-- I tempi tecnici spesso non coincidono con quelli di business
-- Le integrazioni richiedono accordi e documentazione
-- Sicurezza sanitaria richiede competenze specifiche
+* Un software medico basato su intelligenza artificiale richiede iter approvativi lunghi, validazioni cliniche e rigidi controlli normativi.
+* I tempi reali di sviluppo e collaudo spesso non coincidono con le scadenze desiderate dalla direzione.
+* Integrare sistemi diversi richiede tempo, analisi delle API e accordi con fornitori terzi.
+* La protezione dei dati sanitari richiede competenze professionali dedicate e adempimenti legali precisi.
 
 **Domande per gli studenti:**
-- Perché l'IA diagnostica non è "semplice" come pensa il cliente?
-- Quali rischi comporta avere tempi troppo stretti?
+* Perché l'implementazione di un supporto alla diagnosi è molto più complessa di una semplice ricerca online?
+* Quali rischi si corrono a rincorrere scadenze troppo strette su un sistema di questo tipo?
 
 ---
 
-### 4. **REQUISITI CONTRASTANTI**
+### 4. Requisiti in contrasto tra loro
 
 **Dove emerge:**
-- "Sistema unico integrato" vs "ognuno usa i suoi programmi"
-- "Essere innovativi" vs "budget limitato"
-- "Tutto pronto subito" vs "possiamo posticipare alcune cose"
-- "Sicuro, veloce, economico" (triangolo impossibile)
+* La richiesta di un "sistema unico e integrato" affiancata dalla volontà di lasciare che "ognuno continui a usare i propri programmi"
+* L'aspirazione all'innovazione scontrata con limiti di spesa stringenti
+* La pretesa di avere il prodotto subito accompagnata dalla disponibilità a "rinviare qualcosa"
+* La ricerca contemporanea di massima sicurezza, massima velocità e costo minimo
 
 **Cosa far notare:**
-- I clienti spesso chiedono cose incompatibili
-- Serve mediazione e compromessi
-- Il consulente deve far emergere le contraddizioni
-- Prioritizzazione è fondamentale
+* Molto spesso i clienti esprimono desideri tra loro incompatibili.
+* Il lavoro dell'analista consiste nel far emergere queste incongruenze e guidare il cliente verso un compromesso praticabile.
+* Bisogna far capire che non si può ottenere tutto contemporaneamente senza rinunciare a qualcosa in termini di tempi, costi o qualità.
 
 **Domande per gli studenti:**
-- Quali compromessi proporreste al cliente?
-- Come ordinereste le priorità?
+* Quali soluzioni di compromesso proporreste per conciliare l'integrazione dei dati con le abitudini del personale?
+* Come definireste un ordine di priorità condivisibile tra le varie richieste?
 
 ---
 
-### 5. **PROBLEMA DI COMUNICAZIONE TECNICO/NON-TECNICO**
+### 5. Difficoltà di comunicazione tra tecnici e non tecnici
 
 **Dove emerge:**
-- "Interfaccia? Che cosa sono?"
-- "FSE? Ah, il Fascicolo..."
-- "PACS?"
-- "Cloud o in locale? Quale costa meno?"
+* Dubbi del cliente su termini come "interfaccia"
+* Incomprensioni su acronimi di settore (FSE, PACS)
+* Indecisione tra soluzioni in locale o in cloud basata solo sul fattore prezzo
 
 **Cosa far notare:**
-- Gergo tecnico crea barriere comunicative
-- Il consulente deve tradurre in linguaggio comprensibile
-- Il cliente deve ammettere quando non capisce
-- Serve pazienza ed empatia da entrambe le parti
+* L'uso di termini specialistici rischia di bloccare il dialogo e generare equivoci.
+* Chi si occupa dell'analisi deve saper spiegare i concetti tecnici in modo semplice e accessibile.
+* Il cliente deve sentirsi a proprio agio nel segnalare ciò che non gli è chiaro.
+* Serve un atteggiamento d'ascolto e la disponibilità a chiarire ogni dettaglio.
 
 **Domande per gli studenti:**
-- Come spieghereste un'"interfaccia di programmazione" a qualcuno non tecnico?
-- Quando è appropriato usare termini tecnici?
+* Come spieghereste a un operatore sanitario cos'è un punto di integrazione o un'interfaccia tra due programmi?
+* In quali momenti dell'intervista è opportuno introdurre termini tecnici e quando è meglio evitarli?
 
 ---
 
-### 6. **REQUISITI CHE CAMBIANO (ESPANSIONE DELLO SCOPE)**
+### 6. Modifica continua delle richieste
 
 **Dove emerge:**
-- "Ah, dimenticavo!" (accesso remoto)
-- Continui aggiunte durante l'intervista
-- "Anche se... forse l'IA può aspettare"
-- Modifiche alle priorità in corso d'opera
+* L'introduzione estemporanea di nuovi bisogni nel corso della conversazione (es. l'accesso da remoto)
+* Il continuo cambio di prospettiva sulle funzionalità indispensabili rispetto a quelle secondarie
 
 **Cosa far notare:**
-- I requisiti emergono gradualmente
-- Il cliente scopre nuove esigenze parlando
-- Servono meccanismi per gestire i cambiamenti
-- Documentazione è fondamentale
+* Durante la discussione il cliente prende consapevolezza di esigenze a cui non aveva pensato prima.
+* È normale che le richieste aumentino man mano che si approfondisce il problema, ma questo fenomeno va controllato.
+* Occorre adottare un metodo strutturato per raccogliere, valutare e formalizzare gli interventi aggiuntivi.
+* Trascurare la documentazione scritta porta a incomprensioni e contestazioni sulle consegne.
 
 **Domande per gli studenti:**
-- Come evitereste che i requisiti continuino a crescere?
-- Quale processo usereste per gestire nuove richieste?
+* Quali accorgimenti adottereste per evitare che le richieste continuino ad aumentare senza controllo?
+* Con quale procedura gestireste l'inserimento di una nuova funzionalità emersa a progetto avviato?
 
 ---
 
-## ALTRI PROBLEMI EVIDENZIATI
+## ALTRI ASPETTI CRITICI DA EVIDENZIARE
 
-### 7. **MANCANZA DI STAKEHOLDER CHIAVE**
-- Solo il direttore sanitario presente
-- Mancano: primari, IT, amministrazione, utilizzatori finali
-- Visione parziale e incompleta
+### 7. Coinvolgimento parziale degli interlocutori
+* L'intervista è stata condotta soltanto con il direttore sanitario.
+* Mancano le posizioni di medici, infermieri, addetti allo sportello, tecnici informatici e amministrativi.
+* Questo porta a una visione parziale delle reali esigenze quotidiane dell'ospedale.
 
-### 8. **ASSENZA DI ANALISI PRE-MEETING**
-- Nessuna documentazione preparata
-- Nessun studio di fattibilità preliminare
-- Nessuna analisi dei processi esistenti
+### 8. Assenza di un'analisi preliminare
+* L'incontro è avvenuto senza materiale preparatorio o schemi dei processi attuali.
+* Non è stato svolto uno studio di fattibilità informale prima del colloquio.
 
-### 9. **VINCOLI NASCOSTI**
-- Tempistiche imposte (6 mesi)
-- Integrazioni obbligatorie non menzionate subito
-- Requisiti normativi (GDPR, certificazioni)
+### 9. Vincoli normativi e operativi non dichiarati subito
+* Scadenze fisse imposte dall'alto.
+* Esigenza di dialogare con piattaforme esterne emersa solo a colloquio inoltrato.
+* Necessità di rispettare le normative sulla privacy e sulla protezione dei dati personali.
 
-### 10. **DELEGA ECCESSIVA**
-- "Lei è l'esperto, saprà come fare"
-- "Scelga lei la soluzione migliore"
-- Mancanza di ownership del cliente
+### 10. Delega totale delle decisioni
+* L'atteggiamento del cliente che rimette ogni scelta al consulente ("faccia lei, è l'esperto").
+* La mancanza di una presa di responsabilità diretta da parte della struttura sanitaria sulle scelte operative.
 
 ---
 
-## SUGGERIMENTI PER LA DISCUSSIONE IN CLASSE
+## CONDUZIONE DELLA LEZIONE IN CLASSE
 
-### FASE 1: Raccolta (10 minuti)
-Fate completare agli studenti la scheda individualmente
+### Fase 1: Raccolta individuale (10 minuti)
+Gli studenti analizzano il testo dell'intervista e compilano le proprie note.
 
-### FASE 2: Confronto (15 minuti)
-- Dividete in gruppi di 3-4
-- Ogni gruppo condivide i requisiti identificati
-- Consolidate una lista comune per gruppo
+### Fase 2: Lavoro di gruppo (15 minuti)
+* Si dividono gli studenti in piccoli gruppi di 3 o 4 persone.
+* Ogni gruppo confronta le criticità individuate e sintetizza un elenco condiviso.
 
-### FASE 3: Discussione plenaria (20-25 minuti)
+### Fase 3: Discussione generale (20-25 minuti)
 
-**Domande guida:**
-1. Quali requisiti sono chiari? Quali ambigui?
-2. Quali problemi avete notato?
-3. Se foste il consulente, cosa avreste fatto diversamente?
-4. Il cliente è "difficile" o è normale?
-5. Come si poteva condurre meglio l'intervista?
+**Spunti per il dibattito:**
+1. Quali richieste vi sembrano chiare e quali sono scritte in modo ambiguo?
+2. Quali errori di valutazione ha commesso il committente?
+3. Se aveste condotto voi l'intervista, come vi sareste comportati nei punti più critici?
+4. L'atteggiamento di questo cliente è un caso isolato o rispecchia situazioni frequenti nella realtà lavorativa?
 
-### FASE 4: Teoria (15 minuti)
-- Definizione formale di requisito
-- Funzionali vs non funzionali
-- Tecniche di elicitazione
-- Gestione delle aspettative
-- Documentazione dei requisiti
+### Fase 4: Quadro teorico (15 minuti)
+* Definizione formale del concetto di requisito
+* Differenza tra requisiti funzionali e requisiti non funzionali
+* Metodi per raccogliere le informazioni dai clienti
+* Tecniche per concordare obiettivi e priorità
 
-### FASE 5: Esercizio pratico (opzionale, 20 minuti)
-Far riscrivere agli studenti 3-5 requisiti dell'intervista in forma corretta:
-- Chiara, specifica, misurabile
-- Distinguere funzionali/non funzionali
-- Indicare priorità
-- Segnalare dipendenze e vincoli
+### Fase 5: Esercitazione pratica (20 minuti)
+Chiedere agli studenti di rielaborare da 3 a 5 frasi dell'intervista trasformandole in requisiti ben definiti:
+* Formulazione chiara, precisa e verificabile
+* Distinzione tra aspetti funzionali e vincoli tecnici
+* Assegnazione di un livello di priorità
+* Indicazione delle eventuali dipendenze da altri sistemi
 
 ---
 
-## SOLUZIONI POSSIBILI AI PROBLEMI
+## STRATEGIE PER RISOLVERE LE CRITICITÀ
 
-Discutete con gli studenti queste possibili soluzioni:
+Di seguito alcuni spunti da analizzare insieme agli studenti per rispondere ai problemi emersi:
 
-### Per requisiti vaghi:
-- Usare la tecnica delle 5W + H (Who, What, When, Where, Why, How)
-- Chiedere esempi concreti
-- Usare prototipi e mockup
-- Definire criteri di accettazione misurabili
+### Per i requisiti vaghi
+* Chiedere esempi pratici di utilizzo quotidiano.
+* Definire parametri oggettivi di valutazione (es. "il sistema deve completare la ricerca in meno di due secondi").
+* Mostrare bozze grafiche o prototipi dell'interfaccia per raccogliere riscontri immediati.
 
-### Per conflitti budget/funzionalità:
-- Approccio MoSCoW (Must have, Should have, Could have, Won't have)
-- Sviluppo incrementale/agile
-- PMV (Prodotto Minimo Vitale)
-- Presentare diverse opzioni con trade-off chiari
+### Per i problemi di budget
+* Classificare le funzionalità in base alla loro reale necessità (indispensabili, utili, secondarie, rinunciabili).
+* Proporre uno sviluppo per fasi successive, realizzando prima una versione base del software.
+* Presentare opzioni alternative illustrando chiaramente costi, vantaggi e rinunce per ciascuna.
 
-### Per aspettative irrealistiche:
-- Educazione del cliente
-- Casi studio e analisi comparative
-- Coinvolgimento di esperti di dominio
-- Documentazione di rischi e conseguenze
+### Per le aspettative irrealistiche
+* Mostrare dati di fatto sui tempi e sulle difficoltà di realizzazione di determinate tecnologie.
+* Spiegare i passaggi tecnici indispensabili prima di poter integrare moduli complessi.
+* Evidenziare i rischi operativi e legali legati a scelte affrettate.
 
-### Per comunicazione:
-- Glossario condiviso
-- Diagrammi e visualizzazioni
-- Evitare gergo quando possibile
-- Verificare sempre la comprensione
+### Per le incomprensioni comunicative
+* Creare un piccolo vocabolario dei termini usati nel progetto, condiviso tra le parti.
+* Accompagnare le spiegazioni con schemi, mappe e diagrammi visuali.
+* Verificare periodicamente che quanto detto sia stato compreso nello stesso modo da tutti.
 
-### Per espansione dello scope:
-- Gestione dei cambiamenti formale
-- Documentazione requisiti approvata
-- Gestione priorità
-- Contratti chiari su cosa è incluso
+### Per la gestione delle modifiche (Change Management)
+* Stabilire fin da subito che ogni nuova richiesta comporta una revisione di tempi e costi.
+* Mantenere un documento scritto con lo storico delle decisioni prese e approvate.
 
 ---
 
-## COLLEGAMENTI CON IL PROGRAMMA
+## COLLEGAMENTI CON LE MATERIE DI STUDIO
 
-Questa attività può introdurre o consolidare:
-- **Ingegneria del software:** ciclo di vita, requisiti
-- **Gestione progetti:** vincoli (tempo, costo, scopo)
-- **Database:** analisi dei dati necessari
-- **Sistemi informativi:** ERP, integrazione sistemi
-- **Sicurezza:** GDPR, cybersecurity sanitaria
-- **Competenze trasversali:** comunicazione, problem solving
-
----
-
-## VALUTAZIONE DELL'ATTIVITÀ
-
-Valutate gli studenti su:
-- **Completezza:** hanno identificato i requisiti principali?
-- **Criticità:** hanno riconosciuto i problemi?
-- **Analisi:** hanno distinto funzionali da non funzionali?
-- **Proposte:** hanno suggerito soluzioni sensate?
-- **Partecipazione:** hanno contribuito alla discussione?
+L'attività si presta a richiamare diversi argomenti del percorso scolastico:
+* **Informatica e Ingegneria del software:** le fasi di analisi, la stesura delle specifiche e il ciclo di vita delle applicazioni
+* **Gestione progetti:** la relazione tra tempi, costi e risorse disponibili
+* **Basi di dati:** l'individuazione delle informazioni da memorizzare e delle relative strutture
+* **Sistemi e reti:** le architetture applicative, la scelta tra soluzioni locali o in cloud e l'integrazione tra piattaforme
+* **Sicurezza e normative:** la gestione dei dati personali, il GDPR e la tutela delle informazioni sensibili
 
 ---
 
-## ESTENSIONI POSSIBILI
+## VALUTAZIONE
 
-1. **Homework:** far scrivere il documento di analisi requisiti formale
-2. **Role-play:** studenti provano a fare consulenti/clienti in altre interviste
-3. **Progetto:** seguire tutto il ciclo dall'analisi all'implementazione
-4. **Invito esperti:** portare un vero analista/project manager
-5. **Casi studio:** analizzare progetti reali falliti per requisiti mal definiti
-
----
-
-## RISORSE AGGIUNTIVE
-
-### Link utili:
-- Standard IEEE 830 per Specifiche Requisiti Software
-- Tecniche di elicitazione requisiti
-- Template documento analisi requisiti
-- Casi studio progetti IT falliti
-
-### Bibliografia consigliata:
-- "Software Requirements" di Karl Wiegers
-- "Mastering the Requirements Process" di Robertson & Robertson
-- Agile User Stories
+I criteri da considerare per la valutazione dell'attività sono:
+* **Accuratezza nell'analisi:** capacità di individuare le richieste fondamentali presenti nel testo
+* **Spirito critico:** capacità di cogliere le incongruenze, i rischi e le omissioni dell'intervista
+* **Classificazione:** correttezza nel distinguere tra funzioni del sistema e vincoli tecnici o gestionali
+* **Qualità delle soluzioni:** efficacia e praticabilità delle contromisure proposte
+* **Chiarezza ed esposizione:** qualità dell'apporto personale durante le fasi di lavoro di gruppo e di discussione
 
 ---
 
-## NOTE FINALI
+## IDEE PER APPROFONDIRE
 
-**IMPORTANTE:** Sottolineate che:
-- Questi problemi sono REALI e comuni
-- Un bravo analista sa far emergere e gestire queste criticità
-- La comunicazione è importante quanto la competenza tecnica
-- L'analisi requisiti è una delle fasi più critiche (e sottovalutate)
-- Errori in questa fase costano 10-100 volte di più se scoperti dopo
-
-**MESSAGGIO CHIAVE:** Un progetto IT ha successo non solo per la tecnologia, ma per quanto bene si comprendono e gestiscono i bisogni reali del cliente.
+1. **Stesura del documento di analisi:** far redigere una prima bozza di documento dei requisiti strutturato in modo formale.
+2. **Simulazione di ruoli (Role playing):** far interpretare agli studenti una seconda intervista, divisi tra il ruolo di analisti e quello di clienti con esigenze complesse.
+3. **Analisi di casi reali:** mostrare esempi di progetti software reali che hanno riscontrato problemi a causa di un'analisi errata dei requisiti.
 
 ---
 
+## NOTA CONCLUSIVA PER IL DOCENTE
+
+È utile ribadire agli studenti che la maggior parte dei problemi nei progetti informatici non deriva da errori di programmazione, ma da un'incomprensione iniziale di ciò che il software avrebbe dovuto fare. Imparare a porre le domande giuste e a documentare con precisione le risposte è una competenza fondamentale per chiunque voglia lavorare nel settore tecnologico.
+
+---
 ---
 
-# PARTE 2: GUIDA PER LA COSTRUZIONE DEL DFD
+# PARTE 2: GUIDA ALLA COSTRUZIONE DEL DFD
 
 ## OBIETTIVI DIDATTICI - PARTE 2
 
-Questa seconda parte mira a:
-1. **Modellare i processi** attraverso un Diagramma di flusso dei dati
-2. **Identificare componenti chiave**: entità, processi, archivi, flussi
-3. **Comprendere le relazioni** tra sottosistemi
-4. **Far emergere problematiche tecniche**: concorrenza, sicurezza, integrazione
-5. **Preparare alla progettazione database** (relazioni tra archivi)
+La seconda parte dell'attività è dedicata alla modellazione concettuale del sistema tramite i diagrammi di flusso dati (Data Flow Diagram):
+1. Schematizzare il passaggio delle informazioni all'interno dell'applicazione
+2. Riconoscere i componenti base della notazione: entità esterne, processi, archivi dati e flussi
+3. Comprendere come interagiscono tra loro i diversi moduli dell'applicazione
+4. Far emergere questioni di progettazione come l'accesso simultaneo ai dati, la sicurezza e il passaggio dei dati tra moduli
+5. Preparare il lavoro per la successiva progettazione della base di dati
 
 ---
 
-## PREPARAZIONE PER LA PARTE 2
+## ORGANIZZAZIONE DELLA LEZIONE
 
-### Materiali necessari:
-- ✅ Lavagna o LIM per disegnare insieme
-- ✅ Pennarelli di colori diversi (es: blu=entità, rosso=processi, verde=archivi)
-- ✅ Scheda studente con Parte 7 compilabile
-- ✅ (Opzionale) Post-it colorati per costruzione collaborativa
+### Strumenti consigliati:
+* Spazio alla lavagna o schermo interattivo
+* Colori differenti per evidenziare i vari elementi dello schema (es. un colore per gli attori esterni, uno per i processi, uno per gli archivi)
+* Scheda di lavoro per gli studenti
 
-### Convenzioni DFD da usare:
-Assicuratevi che tutti usino la **stessa notazione**:
+### Convenzioni grafiche per il DFD:
 
-| Elemento | Simbolo | Descrizione |
-|----------|---------|-------------|
-| **Entità esterna** | Rettangolo | Attori esterni al sistema (Paziente, Medico, CUP) |
-| **Processo** | Cerchio/Ovale | Trasformazione dati (P1, P2, P3...) |
-| **Archivio dati** | Rettangolo doppio o linee parallele | Dove si salvano i dati (D1, D2, D3...) |
-| **Flusso di dati** | Freccia → | Movimento di informazioni tra elementi |
-
-### Tempo necessario:
-- 20-25 minuti per la costruzione guidata
-- 15 minuti per completamento scheda individuale
-- 10 minuti per confronto risultati
+| Elemento | Simbolo | Significato |
+| :--- | :--- | :--- |
+| **Entità esterna** | Rettangolo | Chi interagisce con il sistema dall'esterno (Paziente, Operatore, Medico) |
+| **Processo** | Cerchio o ovale | Un'elaborazione o trasformazione dei dati (indicato con una sigla come P1, P2) |
+| **Archivio dati** | Linee parallele o rettangolo aperto | Un punto in cui le informazioni vengono salvate in modo permanente (D1, D2) |
+| **Flusso dati** | Freccia con etichetta | Il percorso compiuto dalle informazioni tra un elemento e l'altro |
 
 ---
 
-## SVOLGIMENTO PARTE 2 - STEP BY STEP
+## SVOLGIMENTO GUIDATO PASSO PASSO
 
-### INTRODUZIONE (2 minuti)
+### Introduzione (5 minuti)
 
-**Cosa dire:**
-> "Ora che abbiamo raccolto i requisiti nella prima intervista, dobbiamo **modellare il sistema**. Useremo il DFD - Diagramma di flusso dei dati - per visualizzare come fluiscono i dati. Concentreremo su due funzionalità critiche: Prenotazioni e Cartella Clinica."
-
-**Disegnate sulla lavagna la legenda** con i simboli.
+Si spiega alla classe che, dopo aver raccolto le esigenze del cliente, occorre rappresentare graficamente come funzionerà il software. Per farlo si usano i diagrammi di flusso dati, concentrandosi in particolare su due aree principali: la gestione delle prenotazioni e la cartella clinica.
 
 ---
 
-### SISTEMA PRENOTAZIONI (10 minuti)
+### MODULO PRENOTAZIONI
 
-#### Step 1: Identificare le entità esterne
+#### 1. Individuazione degli attori esterni
+Chiedere alla classe chi sono i soggetti che inviano o ricevono informazioni dal modulo prenotazioni.
+* Paziente
+* Operatore dello sportello (CUP)
+* Medico (per la gestione dei propri orari e disponibilità)
 
-**Domanda agli studenti:** "Chi sono gli attori che interagiscono con il sistema di prenotazione?"
+Si disegnano i relativi rettangoli alla lavagna.
 
-**Risposte attese:**
-- Paziente
-- Personale CUP (Centro Unico Prenotazioni)
-- Medico (indirettamente, per disponibilità)
+#### 2. Definizione dei processi
+Chiedere quali sono le operazioni principali che questo modulo deve eseguire.
+* P1: Registra prenotazione
+* P2: Gestisci o annulla prenotazione
+* P3: Verifica disponibilità
 
-**Disegnate i rettangoli** sulla lavagna mentre gli studenti rispondono.
+Si sottolinea che i processi indicano un'azione e vanno descritti usando dei verbi. Si disegnano i cerchi corrispondenti.
 
----
+#### 3. Individuazione degli archivi dati
+Chiedere quali informazioni devono essere salvate nel sistema in modo permanente.
+* D1: Archivio prenotazioni
+* D2: Archivio medici e orari
+* D3: Archivio anagrafico pazienti
 
-#### Step 2: Identificare i processi principali
+Si mostra come rappresentare gli archivi con le linee parallele.
 
-**Domanda:** "Quali azioni principali deve compiere il sistema?"
-
-**Risposte attese:**
-- P1: Gestisci Prenotazione (crea nuova prenotazione)
-- P2: Modifica/Cancella Prenotazione
-- (Opzionale) P6: Verifica Disponibilità
-
-**Fate notare:** I processi sono **attivi** (verbi: gestisci, modifica, verifica)
-
-**Disegnate i cerchi** con i nomi dei processi.
-
----
-
-#### Step 3: Identificare gli archivi dati
-
-**Domanda:** "Quali dati devono essere memorizzati?"
-
-**Risposte attese:**
-- D1: Archivio Prenotazioni (agenda appuntamenti)
-- D2: Archivio Medici (specialità, disponibilità)
-- D3: Archivio Pazienti (anagrafica)
-
-**Fate notare:** Gli archivi sono **passivi** (nomi: Archivio di...)
-
-**Disegnate i rettangoli doppi**.
+#### 4. Tracciamento dei flussi
+Guidare gli studenti nel collegare i vari elementi con le frecce orientate, specificando chiaramente quali dati passano su ogni linea:
+* Dal Paziente al processo P1 passa la richiesta di appuntamento con i dati personali e la prestazione richiesta.
+* Il processo P1 consulta D3 per verificare la presenza dell'anagrafica del paziente.
+* Il processo P1 interroga D2 per verificare le date e gli orari liberi per quel tipo di visita.
+* Il processo P1 scrive la nuova registrazione nell'archivio D1.
+* Dal processo P1 torna al Paziente la conferma con la data, l'ora e la sede dell'appuntamento.
 
 ---
 
-#### Step 4: Tracciare i flussi di dati
+### MODULO CARTELLA CLINICA
 
-**Domanda:** "Quali informazioni vengono scambiate?"
+#### 1. Individuazione degli attori esterni
+* Medico curante o di reparto
+* Personale infermieristico
+* Laboratorio o centro esami (che fornisce i referti)
 
-Guidateli a identificare:
+#### 2. Definizione dei processi
+* P4: Consulta cartella clinica
+* P5: Aggiorna scheda sanitaria (inserimento visite, diagnosi o terapie)
+* P6: Verifica identità e permessi di accesso
 
-**Flusso 1:** Paziente → P1 (Gestisci Prenotazione)
-- *Dati:* Richiesta prenotazione (nome, CF, tipo visita, data preferita)
+Si fa notare che il controllo degli accessi (P6) è un processo fondamentale che precede ogni altra operazione sui dati sanitari.
 
-**Flusso 2:** P1 → D3 (Archivio Pazienti)
-- *Azione:* Legge dati paziente / Verifica esistenza
+#### 3. Individuazione degli archivi dati
+* D4: Archivio cartelle cliniche (storia medica, referti, prescrizioni)
+* D5: Archivio utenti e autorizzazioni
 
-**Flusso 3:** P1 → D2 (Archivio Medici)
-- *Azione:* Legge disponibilità medici per quella specialità
+**Spunto di discussione:** Perché è opportuno tenere separata l'anagrafica del paziente (D3) dai suoi dati clinici (D4)?
+La separazione permette di gestire meglio la riservatezza delle informazioni, limitare gli accessi ai soli dati necessari per ciascun ruolo e strutturare in modo più ordinato il database.
 
-**Flusso 4:** P1 → D1 (Archivio Prenotazioni)
-- *Azione:* Verifica slot disponibili / Scrive nuova prenotazione
-
-**Flusso 5:** P1 → Paziente
-- *Dati:* Conferma prenotazione (data, ora, medico)
-
-**Disegnate le frecce** etichettandole con i dati trasferiti.
-
----
-
-### SISTEMA CARTELLA CLINICA (10 minuti)
-
-#### Step 1: Entità esterne
-
-**Domanda:** "Chi accede alla cartella clinica?"
-
-**Risposte attese:**
-- Medico
-- Infermiere (se volete dettagliare)
-- Laboratorio (inserisce referti)
+#### 4. Tracciamento dei flussi
+* Il Medico invia le proprie credenziali al processo P6, che controlla i permessi sull'archivio D5.
+* Una volta ottenuta l'autorizzazione, il Medico richiede la consultazione della cartella tramite P4.
+* Il processo P4 legge i dati da D4 e li mostra a schermo.
+* Per inserire un nuovo referto, il processo P5 riceve i dati dal Medico o dal Laboratorio e aggiorna l'archivio D4.
 
 ---
 
-#### Step 2: Processi
+### COLLEGAMENTO TRA I DUE MODULI
 
-**Domanda:** "Cosa fanno questi attori con la cartella?"
+Chiedere agli studenti in quale momento le prenotazioni e le cartelle cliniche devono scambiare dati tra loro.
 
-**Risposte attese:**
-- P3: Consulta Cartella (lettura)
-- P4: Aggiorna Cartella (scrittura: nuova visita, diagnosi, prescrizione)
-- P5: Autenticazione/Autorizzazione (controllo accessi)
-
-**Fate notare:** P5 è un processo **trasversale** - serve per accedere a tutti gli altri!
+Un esempio tipico è l'accettazione del paziente il giorno della visita:
+* Un processo dedicato (es. P7: Accettazione) legge la prenotazione da D1.
+* Verifica o crea la cartella corrispondente in D4.
+* Aggiorna lo stato della prenotazione in D1 per segnalare che il paziente è presente in struttura.
 
 ---
 
-#### Step 3: Archivi dati
+## TEMI TECNICI DA DISCUTERE CON LA CLASSE
 
-**Domanda:** "Dove si salvano le informazioni cliniche?"
+### Accessi simultanei (Concorrenza)
+Cosa succede se due operatori cercano di prenotare lo stesso posto nell'esatto medesimo istante, o se due medici aprono la stessa cartella clinica per modificarla?
+Si introduce il concetto di blocco dei dati (lock) e la necessità di gestire gli accessi concorrenti per evitare sovrascritture o informazioni incoerenti.
 
-**Risposte attese:**
-- D4: Archivio Cartelle Cliniche (anamnesi, visite, diagnosi, terapie, esami)
-- D5: Archivio Utenti/Permessi (chi può fare cosa)
-
-**Domanda critica:** "Perché non mettiamo tutto nell'Archivio Pazienti (D3)?"
-
-**Risposta:** Separazione delle responsabilità:
-- D3 = dati anagrafici (nome, indirizzo, CF)
-- D4 = dati clinici (storia medica, diagnosi)
-
-Sono **collegati** ma **distinti** per sicurezza e modularità.
-
----
-
-#### Step 4: Flussi di dati
-
-Guidateli a tracciare:
-
-**Per P3 (Consulta):**
-- Medico → P5 (Autenticazione) → [verifica] → D5
-- P5 → P3 (token autorizzato)
-- P3 → D4 (legge cartella ID paziente)
-- P3 → Medico (visualizza dati clinici)
-
-**Per P4 (Aggiorna):**
-- Medico → P4 (nuovi dati: diagnosi, prescrizione)
-- P4 → D4 (scrive/aggiorna record)
-- P4 → Medico (conferma salvataggio)
-
----
-
-### INTEGRAZIONE TRA I DUE SISTEMI (5 minuti)
-
-**Domanda cruciale:** "I due sistemi devono comunicare?"
-
-**Risposta:** SÌ! Quando?
-
-**Scenario 1: Accettazione**
-- Paziente arriva per visita prenotata
-- P6: Gestisci Accettazione
-  - Legge D1 (verifica prenotazione)
-  - Legge/crea D4 (apre cartella)
-  - Aggiorna D1 (stato: "in corso")
-
-**Scenario 2: Durante la visita**
-- Medico accede a P3 (Consulta Cartella)
-- Il sistema sa quale paziente perché è collegato alla prenotazione attiva
-
-**Fate disegnare** il processo P6 che "ponte" tra i due sistemi.
-
----
-
-### PROBLEMATICHE DA FAR EMERGERE
-
-#### 1. Concorrenza
-
-**Domanda:** "Due medici modificano contemporaneamente la stessa cartella. Cosa succede?"
-
-**Possibili soluzioni:**
-- Lock pessimistico (chi apre per primo blocca)
-- Lock ottimistico (controllo versione prima di salvare)
-- Merge delle modifiche (se su campi diversi)
-
----
-
-#### 2. Tempo reale
-
-**Domanda:** "Come garantire che tutti vedano dati aggiornati 'in tempo reale'?"
-
-**Soluzioni:**
-- Refresh automatico periodico
-- WebSockets/notifiche push
-- Timestamp "ultimo aggiornamento"
-
----
-
-#### 3. Sicurezza
-
-**Domanda:** "Tutti i medici possono vedere/modificare tutto?"
-
-**Risposta:** NO! Serve matrice di permessi:
+### Riservatezza e profili di accesso
+Non tutto il personale deve poter vedere le stesse informazioni. Si mostra come il processo di autorizzazione debba filtrare i dati in base al ruolo di chi si collega:
 
 | Ruolo | Consulta | Modifica | Cancella |
-|-------|----------|----------|----------|
-| Medico curante | ✅ Tutto | ✅ Sue visite | ❌ |
-| Medico PS | ✅ Info emergenza | ✅ Intervento PS | ❌ |
-| Infermiere | ✅ Terapie | ✅ Parametri vitali | ❌ |
-| Amministrativo | ✅ Anagrafica | ❌ | ❌ |
+| :--- | :--- | :--- | :--- |
+| **Medico curante** | Tutto | Sue visite | No |
+| **Medico PS** | Info emergenza | Intervento PS | No |
+| **Infermiere** | Terapie | Parametri vitali | No |
+| **Amministrativo** | Anagrafica | No | No |
 
-Il processo P5 controlla questi permessi!
-
----
-
-#### 4. Prenotazione in linea
-
-**Domanda:** "Se il paziente prenota dall'app, cambia il DFD?"
-
-**Risposta:** Il processo logico (P1) è lo stesso, ma:
-- **Canale diverso**: interfaccia web/mobile invece di operatore CUP
-- **Entità:** Paziente interagisce direttamente con P1
-- **Validazioni aggiuntive:** CAPTCHA, conferma email, ecc.
-
-Potremmo rappresentare due frecce verso P1:
-- Una da "Paziente (app)"
-- Una da "Operatore CUP"
+### Canali di ingresso differenti
+Se una prenotazione arriva tramite applicazione per smartphone anziché dallo sportello, la logica del processo non cambia: cambiano soltanto l'interfaccia usata e i controlli automatici da inserire all'ingresso (es. la verifica dell'indirizzo e-mail o del numero di cellulare).
 
 ---
 
-## COMPLETAMENTO SCHEDA (15 minuti)
+## RIFLESSIONE FINALE CON GLI STUDENTI
 
-Dopo aver costruito insieme i DFD alla lavagna, date tempo agli studenti di:
+Al termine dell'esercizio è utile richiamare l'attenzione su alcuni punti chiave:
 
-1. **Ridisegnare** i diagrammi sulla loro scheda
-2. **Completare le tabelle** (entità, processi, archivi)
-3. **Rispondere** alle domande di comprensione
-
-**Girate tra i banchi** per verificare che stiano usando correttamente i simboli.
+1. **Il DFD non rappresenta la sequenza temporale:** Lo schema mostra da dove arrivano i dati, come vengono trasformati e dove finiscono, ma non indica l'ordine cronologico esatto delle operazioni (per quello si usano altri strumenti, come i diagrammi di sequenza).
+2. **Corrispondenza con la base di dati:** Gli archivi individuati nello schema (D1, D2, D3...) rappresentano le future tabelle che verranno create nel database.
+3. **Passaggio ai casi d'uso:** Ogni processo individuato nello schema principale rappresenta una funzione che il sistema dovrà mettere a disposizione dei suoi utenti.
 
 ---
 
-## CONFRONTO E DISCUSSIONE (10 minuti)
+## ERRORI FREQUENTI DA CORREGGERE
 
-**Domande per la discussione finale:**
-
-1. **"Qual è la differenza tra processo e archivio dati?"**
-   - Processo = azione attiva (trasforma dati)
-   - Archivio = contenitore passivo (memorizza dati)
-
-2. **"Perché serve separare D1 (Prenotazioni) da D4 (Cartelle)?"**
-   - Dati con scopi diversi
-   - Livelli di sicurezza diversi
-   - Cicli vita diversi (prenotazione si chiude, cartella resta)
-
-3. **"Il DFD mostra l'ORDINE temporale delle azioni?"**
-   - NO! Il DFD mostra COSA fluisce, non QUANDO
-   - Per l'ordine servono altri diagrammi (diagrammi di sequenza, flowchart)
-
-4. **"Abbiamo dimenticato qualcosa di importante?"**
-   - Possibili aggiunte: notifiche, stampe, report, backup...
-
----
-
-## COLLEGAMENTI CON FASI SUCCESSIVE
-
-**Fate capire agli studenti che:**
-
-📌 **Dal DFD al Database:**
-- Gli archivi (D1, D2, D3...) diventeranno **tabelle** nel database
-- I flussi indicano le **relazioni** (chiavi esterne)
-- Es: D1 (Prenotazioni) avrà FK verso D2 (Medici) e D3 (Pazienti)
-
-📌 **Dal DFD ai Casi d'Uso:**
-- Ogni processo può diventare un **use case**
-- Le entità esterne sono gli **attori**
-
-📌 **Dal DFD all'Architettura:**
-- I processi potrebbero diventare **microservizi** separati
-- Gli archivi potrebbero essere **database diversi**
-
-**Il DFD è un ponte** tra requisiti e progettazione!
-
----
-
-## ERRORI COMUNI DEGLI STUDENTI
-
-### ❌ Errore 1: Confondere entità e archivi
-**Sbagliato:** Mettere "Paziente" come archivio dati
-**Corretto:** Paziente è entità esterna, D3 è "Archivio Pazienti"
-
-### ❌ Errore 2: Processi troppo vaghi
-**Sbagliato:** "P1: Gestisci Sistema"
-**Corretto:** "P1: Gestisci Prenotazione" (specifico!)
-
-### ❌ Errore 3: Frecce senza etichette
-**Sbagliato:** Paziente → P1 (freccia vuota)
-**Corretto:** Paziente → P1 [Richiesta prenotazione + dati]
-
-### ❌ Errore 4: Troppi dettagli troppo presto
-Il DFD deve essere **ad alto livello** inizialmente. Evitate di mettere 20 processi alla prima iterazione.
-
-**Suggerite:** Partire con 3-5 processi principali, poi raffinare.
-
----
-
-## VALUTAZIONE PARTE 2 (DFD)
-
-Usate la griglia aggiornata nella scheda studente. Valutate:
-
-### ✅ Identificazione entità e processi (0-2 punti)
-- Ha identificato le entità esterne corrette?
-- Ha nominato i processi in modo chiaro?
-
-### ✅ Archivi dati e flussi (0-2 punti)
-- Ha identificato gli archivi necessari?
-- Ha tracciato i flussi principali con le etichette?
-
-### ✅ Integrazione tra sistemi (0-1 punto)
-- Ha capito come Prenotazioni e Cartelle comunicano?
-
-### ✅ Correttezza del diagramma (0-2 punti)
-- Ha usato i simboli corretti?
-- Il diagramma è leggibile e coerente?
-
-### ✅ Problematiche identificate (0-1 punto)
-- Ha riconosciuto le criticità (concorrenza, sicurezza...)?
-
-**Totale Parte 2: /8 punti**
-**Totale complessivo (Parte 1 + Parte 2): /18 punti**
-
----
-
-## ATTIVITÀ DI APPROFONDIMENTO
-
-Se avete tempo o per homework:
-
-### 🔹 Livello base:
-- Completare il DFD aggiungendo processo di "Gestione Referti"
-- Aggiungere l'entità "Laboratorio Analisi"
-
-### 🔹 Livello intermedio:
-- Espandere il DFD di livello 0 in un **DFD di livello 1** per il processo P1
-- Dettagliare cosa succede DENTRO "Gestisci Prenotazione"
-
-### 🔹 Livello avanzato:
-- Trasformare il DFD in un **diagramma ER** (Entità-Relazioni)
-- Definire attributi e chiavi per ogni archivio
-- Progettare lo schema del database
-
----
-
-## MESSAGGIO CHIAVE - PARTE 2
-
-**Fate capire che:**
-
-🎯 **Il DFD non è "disegnare per disegnare"** - è uno strumento per:
-- Chiarire i requisiti ambigui
-- Comunicare con il cliente e il team
-- Identificare problemi prima di programmare
-- Progettare l'architettura del sistema
-
-🎯 **Ogni freccia è una potenziale criticità**:
-- Sicurezza: chi autorizza quel flusso?
-- Performance: quanto è grande quel dato?
-- Affidabilità: cosa succede se il flusso si interrompe?
-
-🎯 **Il DFD evolve**: non si fa una volta sola, si raffina iterativamente man mano che si capisce meglio il sistema.
-
----
-
-## RISORSE AGGIUNTIVE PER DFD
-
-### Tool software (da mostrare o far usare):
-- Draw.io / diagrams.net (gratuito, online)
-- Lucidchart
-- Visual Paradigm
-- Microsoft Visio
-
-### Standard di riferimento:
-- Notazione Yourdon-DeMarco (quella usata qui)
-- Notazione Gane-Sarson (variante con frecce curve)
-
-### Video tutorial consigliati:
-- Cercate "DFD tutorial" su YouTube
-- Mostrate esempi di DFD di sistemi reali
-
----
-
-**Buon lavoro con la Parte 2! La modellazione è una competenza chiave per ogni informatico.** 🎓📊
+* **Confondere gli attori con gli archivi:** Ad esempio indicare "Paziente" come archivio invece che come soggetto esterno che invia informazioni.
+* **Usare descrizioni troppo generiche per i processi:** Scrivere "Gestione Ospedale" anziché dividere l'operazione in funzioni più specifiche come "Registra appuntamento" o "Consulta referto".
+* **Omettere la descrizione sui flussi:** Tracciare frecce senza indicare quali dati stanno viaggiando da un punto all'altro dello schema.
+* **Disegnare connessioni dirette tra due archivi:** Un archivio dati non può comunicare direttamente con un altro archivio; il passaggio delle informazioni deve sempre avvenire attraverso un processo di elaborazione.
