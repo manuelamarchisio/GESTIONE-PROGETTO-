@@ -1,122 +1,122 @@
-# INTERVISTA SIMULATA: Ospedale San Leonardo
-## Sistema Informatico per Nuovo Ospedale
+# INTERVISTA SIMULATA: ospedale san Leonardo
+## Sistema informatico per il nuovo ospedale
 
 **Personaggi:**
-- **Dr. Martinelli** - Direttore Sanitario Ospedale San Leonardo (in apertura tra 6 mesi)
-- **Ing. Rossi** - Consulente Informatico di TechHealth Solutions
+- **Dr.ssa Martinelli** - Direttrice sanitario dell'ospedale san Leonardo (in apertura tra 6 mesi)
+- **Ing. Rossi** - Consulente informatico di un'azienda privata
 
 ---
 
-## SCENA: Ufficio provvisorio del Dr. Martinelli
+## SCENA: Ufficio provvisorio del DR.SSA Martinelli
 
-**ING. ROSSI:** Buongiorno Dr. Martinelli, grazie per averci contattato. Ho capito che il nuovo ospedale aprirà tra circa sei mesi?
+**ING. ROSSI:** Buongiorno DR.SSA Martinelli, grazie per averci contattato. Ho capito che il nuovo ospedale aprirà tra circa sei mesi?
 
-**DR. MARTINELLI:** Esatto, siamo molto eccitati! Sarà un ospedale all'avanguardia, vogliamo il meglio per i nostri pazienti. Abbiamo bisogno di un sistema informatico moderno, efficiente... insomma, che funzioni bene.
+**DR.SSA MARTINELLI:** Esatto, siamo molto eccitati! Sarà un ospedale all'avanguardia, vogliamo il meglio per i nostri pazienti. Abbiamo bisogno di un sistema informatico moderno, efficiente... insomma, che funzioni bene.
 
 **ING. ROSSI:** Capisco. Per potervi fare una proposta adeguata, ho bisogno di comprendere meglio le vostre esigenze. Quanti posti letto avrà la struttura?
 
-**DR. MARTINELLI:** Partiamo con 150 posti letto, ma vogliamo espanderci presto. Probabilmente tra un paio d'anni arriveremo a 250, forse 300.
+**DR.SSA MARTINELLI:** Partiamo con 150 posti letto, ma vogliamo espanderci presto. Probabilmente tra un paio d'anni arriveremo a 250, forse 300.
 
 **ING. ROSSI:** Bene, quindi dobbiamo prevedere scalabilità. Quali reparti saranno attivi dall'apertura?
 
-**DR. MARTINELLI:** Avremo Pronto Soccorso, Medicina Generale, Chirurgia, Ortopedia, Cardiologia, Pediatria... ah, e poi naturalmente la Radiologia, il laboratorio analisi, la farmacia interna. Insomma, tutti i reparti di un ospedale completo!
+**DR.SSA MARTINELLI:** Avremo Pronto Soccorso, Medicina Generale, Chirurgia, Ortopedia, Cardiologia, Pediatria... ah, e poi naturalmente la Radiologia, il laboratorio analisi, la farmacia interna. Insomma, tutti i reparti di un ospedale completo!
 
 **ING. ROSSI:** Perfetto. Concentriamoci sul sistema informatico. Avete già dei software che utilizzate o volete partire da zero?
 
-**DR. MARTINELLI:** Beh, alcuni medici vengono da altre strutture e sono abituati ai loro programmi. Sarebbe bello se potessero continuare a usare quelli... ma allo stesso tempo vorremmo un sistema unico e integrato. È possibile?
+**DR.SSA MARTINELLI:** Beh, alcuni medici vengono da altre strutture e sono abituati ai loro programmi. Sarebbe bello se potessero continuare a usare quelli... ma allo stesso tempo vorremmo un sistema unico e integrato. È possibile?
 
 **ING. ROSSI:** *(pausa)* Dipende... Quali sono le funzionalità principali che ritenete indispensabili?
 
-**DR. MARTINELLI:** Oh, sicuramente la cartella clinica elettronica! Deve essere accessibile da tutti i medici, aggiornata in tempo reale. E poi la gestione delle prenotazioni... ah, importantissimo: vogliamo ridurre le liste d'attesa! Il sistema deve ottimizzare gli appuntamenti.
+**DR.SSA MARTINELLI:** Oh, sicuramente la cartella clinica elettronica! Deve essere accessibile da tutti i medici, aggiornata in tempo reale. E poi la gestione delle prenotazioni... ah, importantissimo: vogliamo ridurre le liste d'attesa! Il sistema deve ottimizzare gli appuntamenti.
 
 **ING. ROSSI:** Quando parla di "ottimizzare", cosa intende esattamente?
 
-**DR. MARTINELLI:** Beh, che non ci siano buchi nell'agenda, che i pazienti urgenti vengano inseriti subito, che non ci siano doppie prenotazioni... Lei è l'esperto, saprà come fare! L'importante è che sia semplice da usare, mia zia di 70 anni deve poterlo capire.
+**DR.SSA MARTINELLI:** Beh, che non ci siano buchi nell'agenda, che i pazienti urgenti vengano inseriti subito, che non ci siano doppie prenotazioni... Lei è l'esperto, saprà come fare! L'importante è che sia semplice da usare, mia zia di 70 anni deve poterlo capire.
 
-**ING. ROSSI:** Quindi l'interfaccia deve essere intuitiva. Il sistema di prenotazione sarà accessibile anche ai pazienti direttamente, magari tramite app o sito web?
+**ING. ROSSI:** Quindi l'interfaccia deve essere intuitiva. Il sistema di prenotazione sarà accessibile anche ai pazienti direttamente, magari tramite app o sito?
 
-**DR. MARTINELLI:** Assolutamente sì! Vogliamo un'app moderna, con tutte le funzionalità. I pazienti devono poter prenotare, vedere i referti, pagare online, chiamare il medico... magari anche una chat con l'intelligenza artificiale per i primi consulti!
+**DR.SSA MARTINELLI:** Assolutamente sì! Vogliamo un'app moderna, con tutte le funzionalità. I pazienti devono poter prenotare, vedere i referti, pagare in linea, chiamare il medico... magari anche una chat con l'intelligenza artificiale per i primi consulti!
 
 **ING. ROSSI:** *(annota intensamente)* Questo richiederà un'infrastruttura significativa. Parliamo di budget: avete già stabilito quanto investire?
 
-**DR. MARTINELLI:** Beh, non vogliamo spendere troppo... diciamo che abbiamo allocato 80.000 euro per tutto il sistema informatico. Dovrebbe bastare, no? Ormai la tecnologia costa poco!
+**DR.SSA MARTINELLI:** Beh, non vogliamo spendere troppo... diciamo che abbiamo allocato 80.000 euro per tutto il sistema informatico. Dovrebbe bastare, no? Ormai la tecnologia costa poco!
 
-**ING. ROSSI:** *(esita)* Dr. Martinelli, 80.000 euro per un sistema completo con tutte le funzionalità che ha menzionato potrebbe essere... limitato. Solo per dare un'idea, un sistema di cartella clinica elettronica certificato per 150 posti letto parte da circa 50-60.000 euro, escludendo personalizzazioni, formazione e manutenzione.
+**ING. ROSSI:** *(esita)* DR.SSA Martinelli, 80.000 euro per un sistema completo con tutte le funzionalità che ha menzionato potrebbe essere... limitato. Solo per dare un'idea, un sistema di cartella clinica elettronica certificato per 150 posti letto parte da circa 50-60.000 euro, escludendo personalizzazioni, formazione e manutenzione.
 
-**DR. MARTINELLI:** Oh... ma ho letto su internet che ci sono software open source gratuiti! Non possiamo usare quelli?
+**DR.SSA MARTINELLI:** Oh... ma ho letto su internet che ci sono software liberi e gratuiti! Non possiamo usare quelli?
 
 **ING. ROSSI:** Esistono, ma richiedono comunque personalizzazione, hosting sicuro conforme alle normative sulla privacy sanitaria, manutenzione, supporto tecnico... Inoltre, per l'integrazione con app mobile, IA e tutte le funzionalità richieste...
 
-**DR. MARTINELLI:** *(interrompe)* Sì, sì, ma l'IA ormai è dappertutto! Vogliamo che il sistema suggerisca diagnosi ai medici, analizzi le immagini radiologiche, preveda le complicanze... come fa Google con le ricerche, ma per la medicina!
+**DR.SSA MARTINELLI:** *(interrompe)* Sì, sì, ma l'IA ormai è dappertutto! Vogliamo che il sistema suggerisca diagnosi ai medici, analizzi le immagini radiologiche, preveda le complicanze... come fa Google con le ricerche, ma per la medicina!
 
 **INTERVENTO VERSO RAGAZZI**
 
 **ING. ROSSI:** Capisco l'interesse, ma sistemi di IA diagnostica richiedono certificazioni mediche rigorose, validazione clinica, e sollevano questioni di responsabilità legale. Non è qualcosa che si può implementare rapidamente. Forse potremmo iniziare con funzionalità più basilari e aggiungere l'IA in una fase successiva?
 
-**DR. MARTINELLI:** Mmm... ma noi vogliamo essere innovativi fin da subito! *(cambia argomento)* Ah, altra cosa importante: il sistema deve integrarsi con il sistema regionale per la fatturazione e con quello dell'Agenzia delle Entrate per i rimborsi. E anche con le banche per i pagamenti.
+**DR.SSA MARTINELLI:** Mmm... ma noi vogliamo essere innovativi fin da subito! *(cambia argomento)* Ah, altra cosa importante: il sistema deve integrarsi con il sistema regionale per la fatturazione e con quello dell'Agenzia delle Entrate per i rimborsi. E anche con le banche per i pagamenti.
 
 **INTERVENTO RAGAZZI**
 
-**ING. ROSSI:** Certamente, sono integrazioni standard. Avete già contattato i fornitori di questi sistemi per ottenere le specifiche tecniche delle loro API?
+**ING. ROSSI:** Certamente, sono integrazioni standard. Avete già contattato i fornitori di questi sistemi per ottenere le specifiche tecniche delle loro interfacce?
 
-**DR. MARTINELLI:** API? Che cos'è un API?
+**DR.SSA MARTINELLI:** Interfacce? Che cosa sono?
 
 **ING. ROSSI:** Sono le interfacce che permettono ai sistemi diversi di comunicare tra loro. Per integrarci con i sistemi esterni, avremo bisogno della loro documentazione tecnica.
 
-**DR. MARTINELLI:** Ah, capito... più o meno. *(guarda l'orologio)* Senta, io non sono molto tecnico, mi fido di lei. L'importante è che tutto funzioni e sia pronto per l'apertura. Tra sei mesi, ho detto, vero?
+**DR.SSA MARTINELLI:** Ah, capito... più o meno. *(guarda l'orologio)* Senta, io non sono molto tecnico, mi fido di lei. L'importante è che tutto funzioni e sia pronto per l'apertura. Tra sei mesi, ho detto, vero?
 
 **INTERVENTO RAGAZZI**
 
 **ING. ROSSI:** Sì, ha detto sei mesi. Devo essere onesto: sviluppare, testare e implementare un sistema di questa complessità in sei mesi è molto ambizioso. Normalmente progetti simili richiedono 12-18 mesi.
 
-**DR. MARTINELLI:** Ma noi non abbiamo tutto questo tempo! L'ospedale apre tra sei mesi, i lavori edili sono quasi finiti. Non possiamo posticipare!
+**DR.SSA MARTINELLI:** Ma noi non abbiamo tutto questo tempo! L'ospedale apre tra sei mesi, i lavori edili sono quasi finiti. Non possiamo posticipare!
 
 **ING. ROSSI:** Capisco la tempistica. Potremmo procedere per fasi: implementare le funzionalità critiche per l'apertura e aggiungere quelle avanzate successivamente. Quali funzionalità sono assolutamente indispensabili dal primo giorno?
 
-**DR. MARTINELLI:** Beh, tutte quelle che ho detto! Non possiamo aprire un ospedale moderno senza un sistema completo. *(riflette)* Anche se... forse l'IA può aspettare. E l'app mobile... beh, per i primi mesi i pazienti possono telefonare. Ma la cartella clinica e la gestione delle prenotazioni sono fondamentali.
+**DR.SSA MARTINELLI:** Beh, tutte quelle che ho detto! Non possiamo aprire un ospedale moderno senza un sistema completo. *(riflette)* Anche se... forse l'IA può aspettare. E l'app mobile... beh, per i primi mesi i pazienti possono telefonare. Ma la cartella clinica e la gestione delle prenotazioni sono fondamentali.
 
 **ING. ROSSI:** D'accordo. E per il Pronto Soccorso? Ha esigenze particolari? Gestione del triage, tracciamento dei codici colore...
 
-**DR. MARTINELLI:** Ah sì! Il Pronto Soccorso è critico. Deve gestire il triage automaticamente, chiamare automaticamente gli specialisti quando serve, interfacciarsi con il 118... Ah, e deve anche controllare se il paziente ha già una cartella da altre strutture ospedaliere della regione.
+**DR.SSA MARTINELLI:** Ah sì! Il Pronto Soccorso è critico. Deve gestire il triage automaticamente, chiamare automaticamente gli specialisti quando serve, interfacciarsi con il 118... Ah, e deve anche controllare se il paziente ha già una cartella da altre strutture ospedaliere della regione.
 
-**DR. MARTINELLI:** *(pausa)* Ah, dimenticavo! Il sistema deve permettere ai medici di accedere anche da casa per vedere le cartelle. Alcuni fanno i turni notturni da remoto.
+**DR.SSA MARTINELLI:** *(pausa)* Ah, dimenticavo! Il sistema deve permettere ai medici di accedere anche da casa per vedere le cartelle. Alcuni fanno i turni notturni da remoto.
 
 **INTERVENTO RAGAZZI**
 
 **ING. ROSSI:** Accesso remoto significa implementare VPN sicure e protocolli di sicurezza ancora più stringenti. Avete un responsabile della sicurezza informatica?
 
-**DR. MARTINELLI:** No, pensavamo ci pensasse voi... ah no, aspetti! Abbiamo un ragazzo che gestisce i computer e il Wi-Fi. Va bene lui?
+**DR.SSA MARTINELLI:** No, pensavamo ci pensasse voi... ah no, aspetti! Abbiamo un ragazzo che gestisce i computer e il Wi-Fi. Va bene lui?
 
 **INTERVENTO RAGAZZI**
 
 **ING. ROSSI:** Dipende dalle sue competenze. Per dati sanitari servono figure specializzate in cybersecurity sanitaria. È un requisito normativo per il GDPR e per le autorizzazioni sanitarie.
 
-**DR. MARTINELLI:** *(sospira)* Ogni cosa che diciamo sembra complicarsi... Senta, facciamo così: lei prepara una proposta con tutto quello che serve, i costi reali, i tempi realistici. Ma cerchi di contenere le spese, ok? Il nostro budget è quello che è.
+**DR.SSA MARTINELLI:** *(sospira)* Ogni cosa che diciamo sembra complicarsi... Senta, facciamo così: lei prepara una proposta con tutto quello che serve, i costi reali, i tempi realistici. Ma cerchi di contenere le spese, ok? Il nostro budget è quello che è.
 
 **ING. ROSSI:** Certamente. Per preparare un preventivo accurato, avrei bisogno di coinvolgere anche altri stakeholder: il responsabile del laboratorio per la gestione dei referti, il primario di radiologia per il PACS, il responsabile della farmacia...
 
 
-**DR. MARTINELLI:** PACS?
+**DR.SSA MARTINELLI:** PACS?
 
 **INTERVENTO DEI RAGAZZI**
 
 **ING. ROSSI:** Picture Archiving and Communication System, il sistema per gestire le immagini diagnostiche. È un componente importante per radiologia, TAC, risonanze...
 
-**DR. MARTINELLI:** Ah! Sì, servono anche quelli. *(guarda ancora l'orologio)* Senta, perché non prepara una prima bozza e poi ne riparliamo? Magari la prossima volta coinvolgiamo anche il direttore amministrativo, lui sa meglio di me le questioni di budget.
+**DR.SSA MARTINELLI:** Ah! Sì, servono anche quelli. *(guarda ancora l'orologio)* Senta, perché non prepara una prima bozza e poi ne riparliamo? Magari la prossima volta coinvolgiamo anche il direttore amministrativo, lui sa meglio di me le questioni di budget.
 
-**ING. ROSSI:** Ottima idea. Un'ultima domanda: avete preferenze su cloud o server on-premise?
+**ING. ROSSI:** Ottima idea. Un'ultima domanda: avete preferenze per il cloud o per server in locale?
 
-**DR. MARTINELLI:** *(confuso)* Ehm... quale costa meno?
+**DR.SSA MARTINELLI:** *(confuso)* Ehm... quale costa meno?
 
 **INTERVENTO RAGAZZI**
 
-**ING. ROSSI:** Dipende. Il cloud ha costi ricorrenti ma minor investimento iniziale e maggior flessibilità. On-premise richiede hardware e sala server propri. Per i dati sanitari ci sono vincoli specifici su dove possono essere ospitati.
+**ING. ROSSI:** Dipende. Il cloud ha costi ricorrenti ma minor investimento iniziale e maggior flessibilità. La soluzione in locale richiede hardware e sala server propri. Per i dati sanitari ci sono vincoli specifici su dove possono essere ospitati.
 
-**DR. MARTINELLI:** Mi fido del suo giudizio tecnico. Scelga lei la soluzione migliore. L'importante è che sia sicuro, veloce, economico e pronto in tempo!
+**DR.SSA MARTINELLI:** Mi fido del suo giudizio tecnico. Scelga lei la soluzione migliore. L'importante è che sia sicuro, veloce, economico e pronto in tempo!
 
 **ING. ROSSI:** *(sorride educatamente)* Farò del mio meglio per bilanciar tutto. Le invierò una proposta dettagliata entro due settimane con diverse opzioni e priorità. Nel frattempo, sarebbe utile se poteste compilare un questionario più dettagliato sui processi operativi attuali.
 
-**DR. MARTINELLI:** Va bene, lo facciamo. Grazie per la pazienza! So di non essere molto ferrato in tecnologia, ma confido nelle vostre competenze.
+**DR.SSA MARTINELLI:** Va bene, lo facciamo. Grazie per la pazienza! So di non essere molto ferrato in tecnologia, ma confido nelle vostre competenze.
 
 **ING. ROSSI:** È normale, è per questo che siamo qui. Lavoreremo insieme per trovare la soluzione migliore per le vostre esigenze reali.
 
@@ -133,15 +133,15 @@
 
 ---
 
-**ING. ROSSI:** *(si rivolge agli studenti)* Bene ragazzi, avete sentito tutto quello che il Dr. Martinelli ci ha raccontato. Prima di preparare la proposta, vorrei coinvolgervi in un'attività importante: **dobbiamo modellare i processi principali** del sistema.
+**ING. ROSSI:** *(si rivolge agli studenti)* Bene ragazzi, avete sentito tutto quello che il DR.SSA Martinelli ci ha raccontato. Prima di preparare la proposta, vorrei coinvolgervi in un'attività importante: **dobbiamo modellare i processi principali** del sistema.
 
 Concentriamoci su due funzionalità critiche che ha menzionato:
 1. **Sistema di prenotazione visite**
 2. **Cartella clinica elettronica**
 
-Per farlo useremo un **Data Flow Diagram (DFD)** - cioè un diagramma che mostra chi fa cosa, quali dati vengono scambiati e dove vengono memorizzati.
+Per farlo useremo un **Diagramma di flusso dei dati (DFD)** - cioè un diagramma che mostra chi fa cosa, quali dati vengono scambiati e dove vengono memorizzati.
 
-**DR. MARTINELLI:** Un diagramma? Ah, ottimo! Anch'io sono curioso di vedere come funzionerà tutto questo!
+**DR.SSA MARTINELLI:** Un diagramma? Ah, ottimo! Anch'io sono curioso di vedere come funzionerà tutto questo!
 
 ---
 
@@ -160,7 +160,7 @@ Bene. Ora, quali sono le **azioni principali** che questi attori devono compiere
 
 **[PAUSA - I ragazzi rispondono]**
 
-**DR. MARTINELLI:** Deve poter prenotare una visita, ovviamente! E anche vedere le sue prenotazioni, magari modificarle o cancellarle se ha un imprevisto.
+**DR.SSA MARTINELLI:** Deve poter prenotare una visita, ovviamente! E anche vedere le sue prenotazioni, magari modificarle o cancellarle se ha un imprevisto.
 
 **ING. ROSSI:** Perfetto. E quali **informazioni** servono per prenotare una visita?
 
@@ -200,9 +200,9 @@ Ora disegniamo insieme il **processo**. *(disegna alla lavagna/proietta)*
 
 **[PAUSA - I ragazzi rispondono]**
 
-**DR. MARTINELLI:** Ah, capisco! Deve controllare che il medico sia disponibile, che non ci siano già altre prenotazioni in quell'orario, e poi confermare!
+**DR.SSA MARTINELLI:** Ah, capisco! Deve controllare che il medico sia disponibile, che non ci siano già altre prenotazioni in quell'orario, e poi confermare!
 
-**ING. ROSSI:** Esatto, Dr. Martinelli! E una volta confermata la prenotazione, cosa succede?
+**ING. ROSSI:** Esatto, DR.SSA Martinelli! E una volta confermata la prenotazione, cosa succede?
 
 **[PAUSA - I ragazzi rispondono]**
 
@@ -229,11 +229,11 @@ E se il paziente vuole **modificare o cancellare**? Serve un altro processo?
 
 ### COSTRUZIONE DFD - CARTELLA CLINICA ELETTRONICA
 
-**ING. ROSSI:** Bene, ora affrontiamo la **cartella clinica**. Dr. Martinelli, ci ha detto che la cartella deve essere "accessibile da tutti i medici, aggiornata in tempo reale". Partiamo dagli attori: chi interagisce con la cartella?
+**ING. ROSSI:** Bene, ora affrontiamo la **cartella clinica**. DR.SSA Martinelli, ci ha detto che la cartella deve essere "accessibile da tutti i medici, aggiornata in tempo reale". Partiamo dagli attori: chi interagisce con la cartella?
 
 **[PAUSA - I ragazzi rispondono]**
 
-**DR. MARTINELLI:** I medici sicuramente! Ma anche gli infermieri devono poter scrivere cose, tipo i parametri vitali, le terapie somministrate...
+**DR.SSA MARTINELLI:** I medici sicuramente! Ma anche gli infermieri devono poter scrivere cose, tipo i parametri vitali, le terapie somministrate...
 
 **ING. ROSSI:** Ottimo. E quali **informazioni** contiene una cartella clinica?
 
@@ -251,7 +251,7 @@ Ora, quali sono i **processi principali**? Cosa fa il medico con la cartella?
 
 **[PAUSA - I ragazzi rispondono]**
 
-**DR. MARTINELLI:** Deve prima consultarla, vedere la storia del paziente. Poi durante la visita ci scrive la diagnosi, le terapie... magari richiede esami.
+**DR.SSA MARTINELLI:** Deve prima consultarla, vedere la storia del paziente. Poi durante la visita ci scrive la diagnosi, le terapie... magari richiede esami.
 
 **ING. ROSSI:** Perfetto! Quindi abbiamo almeno questi processi:
 
@@ -280,11 +280,11 @@ Disegniamo:
 [MEDICO] ---(Dati nuova visita)---> [P4: Aggiorna Cartella]
 ```
 
-**ING. ROSSI:** Ma attenzione! Dr. Martinelli ha detto "accessibile da tutti i medici". Questo solleva un problema: **chi può vedere/modificare cosa?** Serve un controllo degli accessi!
+**ING. ROSSI:** Ma attenzione! DR.SSA Martinelli ha detto "accessibile da tutti i medici". Questo solleva un problema: **chi può vedere/modificare cosa?** Serve un controllo degli accessi!
 
 **[PAUSA - I ragazzi rispondono]**
 
-**DR. MARTINELLI:** Ah, certo! Non tutti possono fare tutto. Il medico di base può vedere tutta la storia, ma un medico del pronto soccorso magari solo ciò che serve per l'emergenza...
+**DR.SSA MARTINELLI:** Ah, certo! Non tutti possono fare tutto. Il medico di base può vedere tutta la storia, ma un medico del pronto soccorso magari solo ciò che serve per l'emergenza...
 
 **ING. ROSSI:** Esattamente! Serve un **processo di autenticazione e autorizzazione**. Aggiungiamo:
 
@@ -304,7 +304,7 @@ Disegniamo:
 
 **[PAUSA - I ragazzi rispondono]**
 
-**DR. MARTINELLI:** Beh, quando un paziente arriva per la visita prenotata, il medico deve aprire la sua cartella, no?
+**DR.SSA MARTINELLI:** Beh, quando un paziente arriva per la visita prenotata, il medico deve aprire la sua cartella, no?
 
 **ING. ROSSI:** Esattamente! Quindi c'è un **flusso di dati** tra i due sistemi. Quando?
 
@@ -339,7 +339,7 @@ Serve un processo che li colleghi:
 
 ---
 
-**2. Dr. Martinelli vuole che la cartella sia "aggiornata in tempo reale". Cosa significa nel DFD?**
+**2. DR.SSA Martinelli vuole che la cartella sia "aggiornata in tempo reale". Cosa significa nel DFD?**
 
 **[PAUSA - I ragazzi rispondono]**
 
@@ -347,15 +347,15 @@ Serve un processo che li colleghi:
 
 ---
 
-**3. Quando un paziente prenota online (dall'app), il flusso cambia?**
+**3. Quando un paziente prenota in linea (dall'app), il flusso cambia?**
 
 **[PAUSA - I ragazzi rispondono]**
 
-**DR. MARTINELLI:** Ah! Ci sarà un'app, quindi il paziente prenota da solo senza passare dal CUP!
+**DR.SSA MARTINELLI:** Ah! Ci sarà un'app, quindi il paziente prenota da solo senza passare dal CUP!
 
 **ING. ROSSI:** Esattamente! Dobbiamo distinguere:
 - **Prenotazione da sportello** → passa attraverso operatore CUP
-- **Prenotazione online** → direttamente dal paziente all'applicazione
+- **Prenotazione in linea** → direttamente dal paziente all'applicazione
 
 È lo stesso processo logico (P1), ma con interfacce diverse!
 
@@ -376,7 +376,7 @@ Come sono **collegati** tra loro? Un paziente nelle Prenotazioni è lo stesso pa
 
 **ING. ROSSI:** Giusto! Devono essere **collegati tramite chiavi** (ad esempio Codice Fiscale o ID Paziente). Questo ci servirà quando progetteremo il database!
 
-**DR. MARTINELLI:** *(un po' confuso ma impressionato)* Wow, non pensavo fosse così complesso! Ma adesso vedo meglio come funziona tutto insieme.
+**DR.SSA MARTINELLI:** *(un po' confuso ma impressionato)* Wow, non pensavo fosse così complesso! Ma adesso vedo meglio come funziona tutto insieme.
 
 **ING. ROSSI:** Ed è proprio questo il valore del DFD: **visualizzare la complessità** prima di sviluppare, così evitiamo sorprese!
 

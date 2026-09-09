@@ -126,7 +126,7 @@ Ci sono stati momenti in cui cliente e consulente non si capivano?
 
 ---
 
-### 5. SCOPE CREEP (requisiti che crescono)
+### 5. ESPANSIONE DELLO SCOPE (requisiti che crescono)
 
 Hai notato nuovi requisiti aggiunti durante la conversazione o cambiamenti nelle priorità?
 
@@ -229,7 +229,7 @@ ___________________________________________________________________
 ___________________________________________________________________
 ___________________________________________________________________
 
-**3. Cosa significa "scope creep" e perché è pericoloso per un progetto?**
+**3. Cosa significa "espansione dello scope" e perché è pericolosa per un progetto?**
 
 ___________________________________________________________________
 ___________________________________________________________________
@@ -279,7 +279,7 @@ ___________________________________________________________________
 
 ---
 
-## PARTE 7: COSTRUZIONE DEL DFD (Data Flow Diagram)
+## PARTE 7: COSTRUZIONE DEL DFD (Diagramma di flusso dei dati)
 
 Durante la seconda parte dell'intervista, costruirete insieme il diagramma dei flussi di dati per i due sistemi principali: **Prenotazione Visite** e **Cartella Clinica Elettronica**.
 
@@ -465,7 +465,7 @@ Quali controlli servono?
 ___________________________________________________________________
 ___________________________________________________________________
 
-**4. Prenotazione online vs sportello**
+**4. Prenotazione in linea vs sportello**
 Il flusso cambia se il paziente prenota dall'app invece che allo sportello?
 
 ⬜ Sì, cambia completamente  ⬜ No, è lo stesso  ⬜ Cambia solo l'interfaccia

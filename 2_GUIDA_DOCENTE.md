@@ -98,10 +98,10 @@ L'attività mira a far comprendere agli studenti:
 ### 5. **PROBLEMA DI COMUNICAZIONE TECNICO/NON-TECNICO**
 
 **Dove emerge:**
-- "API? Che cos'è?"
+- "Interfaccia? Che cosa sono?"
 - "FSE? Ah, il Fascicolo..."
 - "PACS?"
-- "Cloud o on-premise? Quale costa meno?"
+- "Cloud o in locale? Quale costa meno?"
 
 **Cosa far notare:**
 - Gergo tecnico crea barriere comunicative
@@ -110,12 +110,12 @@ L'attività mira a far comprendere agli studenti:
 - Serve pazienza ed empatia da entrambe le parti
 
 **Domande per gli studenti:**
-- Come spieghereste "API" a qualcuno non tecnico?
+- Come spieghereste un'"interfaccia di programmazione" a qualcuno non tecnico?
 - Quando è appropriato usare termini tecnici?
 
 ---
 
-### 6. **REQUISITI CHE CAMBIANO (SCOPE CREEP)**
+### 6. **REQUISITI CHE CAMBIANO (ESPANSIONE DELLO SCOPE)**
 
 **Dove emerge:**
 - "Ah, dimenticavo!" (accesso remoto)
@@ -207,12 +207,12 @@ Discutete con gli studenti queste possibili soluzioni:
 ### Per conflitti budget/funzionalità:
 - Approccio MoSCoW (Must have, Should have, Could have, Won't have)
 - Sviluppo incrementale/agile
-- MVP (Minimum Viable Product)
+- PMV (Prodotto Minimo Vitale)
 - Presentare diverse opzioni con trade-off chiari
 
 ### Per aspettative irrealistiche:
 - Educazione del cliente
-- Casi studio e benchmark
+- Casi studio e analisi comparative
 - Coinvolgimento di esperti di dominio
 - Documentazione di rischi e conseguenze
 
@@ -222,8 +222,8 @@ Discutete con gli studenti queste possibili soluzioni:
 - Evitare gergo quando possibile
 - Verificare sempre la comprensione
 
-### Per scope creep:
-- Change management formale
+### Per espansione dello scope:
+- Gestione dei cambiamenti formale
 - Documentazione requisiti approvata
 - Gestione priorità
 - Contratti chiari su cosa è incluso
@@ -298,7 +298,7 @@ Valutate gli studenti su:
 ## OBIETTIVI DIDATTICI - PARTE 2
 
 Questa seconda parte mira a:
-1. **Modellare i processi** attraverso un Data Flow Diagram
+1. **Modellare i processi** attraverso un Diagramma di flusso dei dati
 2. **Identificare componenti chiave**: entità, processi, archivi, flussi
 3. **Comprendere le relazioni** tra sottosistemi
 4. **Far emergere problematiche tecniche**: concorrenza, sicurezza, integrazione
@@ -336,7 +336,7 @@ Assicuratevi che tutti usino la **stessa notazione**:
 ### INTRODUZIONE (2 minuti)
 
 **Cosa dire:**
-> "Ora che abbiamo raccolto i requisiti nella prima intervista, dobbiamo **modellare il sistema**. Useremo il DFD - Data Flow Diagram - per visualizzare come fluiscono i dati. Concentreremo su due funzionalità critiche: Prenotazioni e Cartella Clinica."
+> "Ora che abbiamo raccolto i requisiti nella prima intervista, dobbiamo **modellare il sistema**. Useremo il DFD - Diagramma di flusso dei dati - per visualizzare come fluiscono i dati. Concentreremo su due funzionalità critiche: Prenotazioni e Cartella Clinica."
 
 **Disegnate sulla lavagna la legenda** con i simboli.
 
@@ -535,7 +535,7 @@ Il processo P5 controlla questi permessi!
 
 ---
 
-#### 4. Prenotazione online
+#### 4. Prenotazione in linea
 
 **Domanda:** "Se il paziente prenota dall'app, cambia il DFD?"
 

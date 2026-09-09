@@ -18,11 +18,11 @@
 | 5 | Sistema di gestione farmacia interna | Media | Accennato |
 | 6 | Sistema PACS per gestione immagini diagnostiche (RX, TAC, RMN) | Media | Necessario per radiologia |
 | 7 | Gestione referti laboratorio analisi | Media | Implicito |
-| 8 | Sistema di prenotazione online per pazienti (web/app mobile) | Bassa | Rimandabile dopo apertura |
+| 8 | Sistema di prenotazione in linea per pazienti (web/app mobile) | Bassa | Rimandabile dopo apertura |
 | 9 | Notifiche automatiche agli specialisti dal PS | Media | Richiesta specifica |
 | 10 | Integrazione con sistema 118 | Media | Per PS |
 | 11 | Sistema di fatturazione e integrazione con sistema regionale | Alta | Obbligatorio normativo |
-| 12 | Gestione pagamenti online | Bassa | Nice to have |
+| 12 | Gestione pagamenti in linea | Bassa | Funzionalità aggiuntiva |
 | 13 | Chat/consulto con IA per pazienti | Bassa | Menzionato ma irrealistico |
 | 14 | Accesso remoto per medici (da casa) | Media | Richiesto per turni |
 
@@ -113,7 +113,7 @@
 3. **"80.000€ per sistema completo"**
    - **Perché irrealistico:** Solo la cartella clinica certificata costa 50-60k€, poi servono PACS, integrazioni, formazione, manutenzione
 
-4. **"Software open source gratuito"**
+4. **"Software libero e gratuito"
    - **Perché irrealistico:** "Gratuito" non significa senza costi: servono personalizzazione, hosting certificato, supporto, manutenzione
 
 5. **"Il ragazzo del Wi-Fi come responsabile sicurezza"**
@@ -131,7 +131,7 @@
 | API | NO | "Le interfacce che permettono a due programmi diversi di 'parlare' tra loro, come una presa elettrica standard" |
 | FSE | Parzialmente (dopo) | Usare subito nome completo "Fascicolo Sanitario Elettronico" |
 | PACS | NO | "Il sistema che archivia e mostra le immagini come radiografie e TAC" |
-| Cloud vs on-premise | NO | "Cloud = affittare computer su internet; On-premise = comprare e gestire propri server" |
+| Cloud vs in locale | NO | "Cloud = affittare computer su internet; In locale = comprare e gestire propri server" |
 | VPN | Non menzionato | "Tunnel sicuro per accedere da casa come se fossi in ospedale" |
 | GDPR | Implicito | "La legge europea sulla privacy dei dati personali" |
 
@@ -139,7 +139,7 @@
 
 ---
 
-### 5. SCOPE CREEP
+### 5. ESPANSIONE DELLO SCOPE
 
 Nuovi requisiti emersi durante la conversazione:
 
@@ -183,7 +183,7 @@ Nuovi requisiti emersi durante la conversazione:
 ### Domande importanti NON fatte
 
 - Quanti utenti simultanei? (medici, pazienti, amministrativi)
-- Quali processi usate oggi? (per capire workflow)
+- Quali processi usate oggi? (per capire il flusso di lavoro)
 - Avete già hardware/infrastruttura? Server, rete?
 - Chi si occuperà di manutenzione ordinaria?
 - Quali sono i formati dati che dovete gestire?
@@ -214,7 +214,7 @@ Nuovi requisiti emersi durante la conversazione:
 - Mappatura degli stakeholder e loro esigenze
 - Budget realistico approvato dalla direzione
 - Studio di fattibilità preliminare
-- Benchmarking (visitare altri ospedali simili)
+- Analisi comparativa (visitare altri ospedali simili)
 - Lista prioritizzata di esigenze (must have vs nice to have)
 - Informazioni su infrastruttura esistente
 - Roadmap temporale flessibile
@@ -238,7 +238,7 @@ Nuovi requisiti emersi durante la conversazione:
 
 ---
 
-### FASE 1 - MVP per apertura (6 mesi)
+### FASE 1 - PMV per apertura (6 mesi)
 
 **Funzionalità critiche:**
 
@@ -283,7 +283,7 @@ Nuovi requisiti emersi durante la conversazione:
 
 **FASE 4 (anno 3+):**
 - Espansione per scalare a 250-300 posti letto
-- Sistemi di Business Intelligence
+- Sistemi di Intelligenza aziendale
 - Valutazione di IA per supporto (non diagnosi automatica)
 - Telemedicina e consulti a distanza
 
@@ -316,7 +316,7 @@ Meglio essere onesti fin dall'inizio su cosa è realisticamente fattibile.
 
 ---
 
-### 3. Scope creep
+### 3. Espansione dello scope
 
 **Risposta:**
 - **Definizione:** L'espansione continua e incontrollata dei requisiti durante il progetto, oltre a quanto originariamente concordato.
@@ -336,7 +336,7 @@ Meglio essere onesti fin dall'inizio su cosa è realisticamente fattibile.
 **Risposta:**
 Perché ogni categoria di utente ha esigenze diverse:
 - **Primari di reparto:** requisiti clinici specifici
-- **Infermieri:** workflow operativo quotidiano
+- **Infermieri:** flusso di lavoro operativo quotidiano
 - **Radiologi:** esigenze PACS e gestione immagini
 - **Farmacisti:** gestione magazzino e prescrizioni
 - **Amministrativi:** fatturazione e aspetti burocratici
@@ -669,14 +669,14 @@ Se avete studenti molto bravi che finiscono prima:
 - Ogni azione verifica: `if (utente.ruolo.permessi.includes('write_cartella'))`
 - Log di audit: chi ha fatto cosa e quando (per GDPR)
 
-#### 4. Prenotazione online vs sportello
+#### 4. Prenotazione in linea vs sportello
 
 **Il flusso cambia?**
 ✅ **Cambia solo l'interfaccia, non la logica del processo**
 
 **Differenze:**
 
-| Aspetto | Prenotazione sportello | Prenotazione online (app) |
+| Aspetto | Prenotazione sportello | Prenotazione in linea (app) |
 |---------|----------------------|---------------------------|
 | **Entità esterna** | Operatore CUP | Paziente direttamente |
 | **Processo** | Stesso P1 | Stesso P1 |
@@ -777,8 +777,8 @@ Se avete studenti molto bravi che finiscono prima:
 
 **Per l'ordine temporale servono altri diagrammi:**
 - **Diagrammi di sequenza** (UML) → mostrano messaggi nel tempo
-- **Flowchart** → mostrano decisioni e branching
-- **Diagrammi di attività** (UML) → mostrano workflow
+- **Diagrammi di flusso** → mostrano decisioni e branching
+- **Diagrammi di attività** (UML) → mostrano il flusso di lavoro
 
 **Esempio:**
 - Nel DFD vedo che P1 legge da D2 e D3, ma non so se legge prima D2 o D3

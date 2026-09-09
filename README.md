@@ -25,8 +25,8 @@ dei requisiti:
 - conflitto tra budget e funzionalità (80.000 € per un sistema con IA e app mobile)
 - aspettative irrealistiche (sei mesi per un sistema complesso)
 - requisiti contrastanti
-- barriere comunicative ("API? Che cos'è?")
-- *scope creep* (requisiti aggiunti in corso d'intervista)
+- barriere comunicative ("Interfaccia? Che cosa sono?")
+- *espansione dello scope* (requisiti aggiunti in corso d'intervista)
 
 In punti strategici del dialogo sono previste **pause per gli interventi
 della classe**: gli studenti possono prendere la parola per suggerire domande
@@ -53,7 +53,7 @@ dei requisiti:
 3. Aspettative irrealistiche (tempistiche, IA diagnostica)
 4. Requisiti contrastanti (sistema unico vs. sistemi eterogenei)
 5. Barriere comunicative tra cliente non tecnico e consulente
-6. *Scope creep* (accesso remoto aggiunto "ah, dimenticavo!")
+6. *Espansione dello scope* (accesso remoto aggiunto "ah, dimenticavo!")
 
 ---
 
