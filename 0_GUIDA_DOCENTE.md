@@ -238,15 +238,6 @@ I criteri da considerare per la valutazione dell'attività sono:
 * **Classificazione:** correttezza nel distinguere tra funzioni del sistema e vincoli tecnici o gestionali
 * **Qualità delle soluzioni:** efficacia e praticabilità delle contromisure proposte
 * **Chiarezza ed esposizione:** qualità dell'apporto personale durante le fasi di lavoro di gruppo e di discussione
-
----
-
-## IDEE PER APPROFONDIRE
-
-1. **Stesura del documento di analisi:** far redigere una prima bozza di documento dei requisiti strutturato in modo formale.
-2. **Simulazione di ruoli (Role playing):** far interpretare agli studenti una seconda intervista, divisi tra il ruolo di analisti e quello di clienti con esigenze complesse.
-3. **Analisi di casi reali:** mostrare esempi di progetti software reali che hanno riscontrato problemi a causa di un'analisi errata dei requisiti.
-
 ---
 
 ## NOTA CONCLUSIVA PER IL DOCENTE
