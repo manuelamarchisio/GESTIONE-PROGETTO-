@@ -2,8 +2,13 @@
 ## Sistema informatico per il nuovo ospedale
 
 **Personaggi:**
+<<<<<<< HEAD
 - **Dr.ssa Martinelli** - Direttrice sanitario dell'ospedale san Leonardo (in apertura tra 6 mesi)
 - **Ing. Rossi** - Consulente informatico di un'azienda privata
+=======
+- **Dr. Martinelli** - Direttore sanitario ospedale san Leonardo (in apertura tra 6 mesi)
+- **Ing. Rossi** - Consulente informatico di TechHealth Solutions
+>>>>>>> 21b640e3cd6b406580452f2f99e3ecc74d4f7a64
 
 ---
 
