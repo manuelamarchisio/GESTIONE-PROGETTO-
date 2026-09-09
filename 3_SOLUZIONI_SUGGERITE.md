@@ -162,23 +162,23 @@ Nuovi requisiti emersi durante la conversazione:
 
 ### Cosa ha fatto BENE il consulente
 
-- ✅ È rimasto paziente e professionale anche di fronte a richieste irrealistiche
-- ✅ Ha fatto domande chiarificatrici (quanti posti letto, quali reparti...)
-- ✅ Ha cercato di dimensionare aspettative (tempi, costi reali)
-- ✅ Ha menzionato vincoli normativi (GDPR, certificazioni)
-- ✅ Ha proposto approccio per fasi quando ha visto la complessità
-- ✅ Ha identificato la necessità di coinvolgere altri stakeholder
-- ✅ Non ha promesso l'impossibile
+- È rimasto paziente e professionale anche di fronte a richieste irrealistiche
+- Ha fatto domande chiarificatrici (quanti posti letto, quali reparti...)
+- Ha cercato di dimensionare aspettative (tempi, costi reali)
+- Ha menzionato vincoli normativi (GDPR, certificazioni)
+- Ha proposto approccio per fasi quando ha visto la complessità
+- Ha identificato la necessità di coinvolgere altri stakeholder
+- Non ha promesso l'impossibile
 
 ### Cosa avresti fatto DIVERSAMENTE
 
-- ❌ Avrei portato un questionario preparatorio da far compilare prima
-- ❌ Avrei insistito di più per coinvolgere altri stakeholder fin da subito
-- ❌ Avrei usato schemi/diagrammi per visualizzare il sistema
-- ❌ Avrei definito meglio scope minimo vs desiderata
-- ❌ Avrei fermato prima il cliente quando aggiungeva requisiti continuamente
-- ❌ Avrei evitato più termini tecnici o li avrei sempre spiegati
-- ❌ Avrei mostrato esempi di progetti simili con tempi/costi reali
+- Avrei portato un questionario preparatorio da far compilare prima
+- Avrei insistito di più per coinvolgere altri stakeholder fin da subito
+- Avrei usato schemi/diagrammi per visualizzare il sistema
+- Avrei definito meglio scope minimo vs desiderata
+- Avrei fermato prima il cliente quando aggiungeva requisiti continuamente
+- Avrei evitato più termini tecnici o li avrei sempre spiegati
+- Avrei mostrato esempi di progetti simili con tempi/costi reali
 
 ### Domande importanti NON fatte
 
