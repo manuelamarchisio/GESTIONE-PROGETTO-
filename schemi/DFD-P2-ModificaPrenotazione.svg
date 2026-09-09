@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 300" style="border:2px solid #333; background: #f0f0f0;">
+  <rect width="900" height="300" fill="#f0f0f0"/>
+  <defs>
+    <style>
+      .entity { fill: #4db8ff; stroke: #003d99; stroke-width: 3; }
+      .process { fill: #ffeb3b; stroke: #f57f17; stroke-width: 3; }
+      .datastore { fill: #ce93d8; stroke: #6a1b9a; stroke-width: 3; }
+      .arrow { stroke: #000; stroke-width: 2.5; fill: none; marker-end: url(#arrowhead); }
+      .label { font-family: Arial, sans-serif; font-size: 12px; fill: #000; font-weight: bold; }
+      .title { font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; fill: #000; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#333" />
+    </marker>
+  </defs>
+
+  <text x="450" y="25" text-anchor="middle" class="title">P2: Modifica o Cancellazione Prenotazione</text>
+
+  <!-- ENTITÀ ESTERNA: PAZIENTE -->
+  <rect x="50" y="80" width="140" height="80" rx="10" class="entity"/>
+  <text x="120" y="130" text-anchor="middle" class="label" font-weight="bold">PAZIENTE</text>
+
+  <!-- PROCESSO P2 -->
+  <circle cx="320" cy="120" r="55" class="process"/>
+  <text x="320" y="110" text-anchor="middle" class="label" font-weight="bold">P2</text>
+  <text x="320" y="135" text-anchor="middle" class="label" font-size="11">Modifica</text>
+
+  <!-- ARCHIVIO PRENOTAZIONI -->
+  <rect x="600" y="70" width="180" height="70" class="datastore"/>
+  <rect x="605" y="75" width="170" height="60" class="datastore"/>
+  <text x="690" y="105" text-anchor="middle" class="label" font-weight="bold">D1</text>
+  <text x="690" y="123" text-anchor="middle" class="label" font-size="11">Archivio Prenotazioni</text>
+
+  <!-- FRECCE -->
+  <!-- Paziente -> P2 -->
+  <path d="M 190 120 Q 250 120 265 120" class="arrow"/>
+  <text x="220" y="105" class="label" font-size="11" fill="#000">Richiesta modifica/cancellazione</text>
+
+  <!-- P2 -> D1 -->
+  <path d="M 375 110 Q 480 100 600 105" class="arrow"/>
+  <text x="480" y="95" class="label" font-size="11" fill="#000">verifica/aggiorna</text>
+
+  <!-- D1 -> P2 -->
+  <path d="M 600 125 Q 480 140 375 130" class="arrow"/>
+  <text x="480" y="155" class="label" font-size="11" fill="#000">disponibilità</text>
+
+  <!-- Output -->
+  <text x="690" y="200" text-anchor="middle" class="label">Prenotazione modificata/cancellata</text>
+</svg>
